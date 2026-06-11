@@ -20,6 +20,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Node.js #22448](field-tests/nodejs-node-22448/README.md) | `nodejs/node` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-07 |
 | [Open WebUI #25038](field-tests/open-webui-open-webui-25038/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
 | [Open WebUI #25235](field-tests/open-webui-open-webui-25235/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
+| [pnpm #12222](field-tests/pnpm-pnpm-12222/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-11 |
 | [Next.js #54482](field-tests/vercel-next-js-54482/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-04 |
 | [Next.js #86784](field-tests/vercel-next-js-86784/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-06 |
 | [Next.js #92978](field-tests/vercel-next-js-92978/README.md) | `vercel/next.js` | repair | upstream-pr-recorded | 2026-06-09 |
