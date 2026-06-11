@@ -1,0 +1,25 @@
+# Field Test Index
+
+This index lists public field-test case records.
+
+A listed case does not imply upstream acceptance, maintainer endorsement, or
+project affiliation. Status fields distinguish diagnostic records, local
+repairs, public comments, and upstream PR outcomes.
+
+| Case | Repository | Mode | Status | Recorded |
+| --- | --- | --- | --- | --- |
+| [Deno #30652](field-tests/denoland-deno-30652/README.md) | `denoland/deno` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-06 |
+| [Docker Compose #13613](field-tests/docker-compose-13613/README.md) | `docker/compose` | repair | upstream-pr-recorded | 2026-06-09 |
+| [Kubernetes #138670](field-tests/kubernetes-kubernetes-138670/README.md) | `kubernetes/kubernetes` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-03 |
+| [Kubernetes #138728](field-tests/kubernetes-kubernetes-138728/README.md) | `kubernetes/kubernetes` | diagnostic-proof-and-repair | repair-recorded | 2026-06-06 |
+| [LangChain #34818](field-tests/langchain-ai-langchain-34818/README.md) | `langchain-ai/langchain` | repair | repair-recorded | 2026-06-04 |
+| [Playwright #39948](field-tests/microsoft-playwright-39948/README.md) | `microsoft/playwright` | repair | public-comment-recorded | 2026-06-10 |
+| [Visual Studio Code #314457](field-tests/microsoft-vscode-314457/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | public-comment-recorded | 2026-06-04 |
+| [Moby #46742](field-tests/moby-moby-46742/README.md) | `moby/moby` | diagnostic-proof | upstream-pr-recorded | 2026-06-04 |
+| [Node.js #22448](field-tests/nodejs-node-22448/README.md) | `nodejs/node` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-07 |
+| [Open WebUI #25038](field-tests/open-webui-open-webui-25038/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
+| [Open WebUI #25235](field-tests/open-webui-open-webui-25235/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
+| [Next.js #54482](field-tests/vercel-next-js-54482/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-04 |
+| [Next.js #86784](field-tests/vercel-next-js-86784/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-06 |
+| [Next.js #92978](field-tests/vercel-next-js-92978/README.md) | `vercel/next.js` | repair | upstream-pr-recorded | 2026-06-09 |
+| [Next.js #94450](field-tests/vercel-next-js-94450/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-06 |
