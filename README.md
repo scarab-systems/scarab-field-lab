@@ -7,16 +7,19 @@
 Scarab Field Lab is the public case library for Scarab Diagnostic Suite field
 tests.
 
-Each field test records public links, a specific diagnostic finding, validation
-notes, and, when applicable, the public status of a human-reviewed patch or
-upstream pull request. The repo publishes the case record only.
+Scarab Diagnostic Suite is proprietary and not open source. This repository
+publishes public case records only: public links, specific diagnostic findings,
+validation notes, and, when applicable, the public status of a human-reviewed
+patch or upstream pull request. It does not contain SDS source code, internal
+diagnostic rules, product internals, private run artifacts, or implementation
+details.
 
-Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repo
+Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repository
 evidence, compares expected and observed behavior, and records specific
-findings. It is not an AI coding agent, does not generate diagnostic truth
-through model reasoning, and does not submit unattended patches. AI assistance
-may help later with patch drafting or summaries, but public submissions remain
-human reviewed.
+findings. It is not an AI coding agent, does not use AI to determine diagnostic
+truth, and does not submit unattended patches. AI assistance may help after
+bounded diagnostic evidence exists with patch drafting or summaries, but public
+submissions remain human reviewed.
 
 ## What This Repo Shows
 
@@ -30,10 +33,21 @@ human reviewed.
 
 ## What This Repo Does Not Show
 
-- SDS product materials or non-public records.
+- SDS source code, product internals, or internal diagnostic rules.
+- Private run artifacts, implementation details, or non-public records.
 - Secrets or private correspondence.
 - Cloned target repositories or vendored upstream source trees.
 - Claims that SDS repaired a project by itself.
+
+## Suggest A Field Lab Candidate
+
+If you know of a public open-source issue that looks like cross-layer drift,
+unclear ownership, AI-assisted code drift, or a boundary failure, you may
+suggest it as a Field Lab candidate through the public channels Scarab Systems
+provides for Field Lab feedback. Useful suggestions include the public issue
+link, the suspected boundary, reproduction notes if available, and why the case
+may be diagnostically interesting. Candidate suggestions are for Field Lab
+review only; they are not requests for SDS access or product changes.
 
 ## Start Here
 
@@ -45,6 +59,4 @@ human reviewed.
 
 ## Mascot
 
-The Scarab Systems mascot is included as a small trust mark. It may be used in
-Scarab-owned public field-test communication when a little warmth is appropriate,
-but it should not replace evidence, validation, or maintainer-facing clarity.
+This is Scarab... That is all.
