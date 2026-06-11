@@ -14,6 +14,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Kubernetes #138728](field-tests/kubernetes-kubernetes-138728/README.md) | `kubernetes/kubernetes` | diagnostic-proof-and-repair | repair-recorded | 2026-06-06 |
 | [LangChain #34818](field-tests/langchain-ai-langchain-34818/README.md) | `langchain-ai/langchain` | repair | repair-recorded | 2026-06-04 |
 | [Playwright #39948](field-tests/microsoft-playwright-39948/README.md) | `microsoft/playwright` | repair | public-comment-recorded | 2026-06-10 |
+| [Visual Studio Code #247522](field-tests/microsoft-vscode-247522/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-11 |
 | [Visual Studio Code #314457](field-tests/microsoft-vscode-314457/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | public-comment-recorded | 2026-06-04 |
 | [Moby #46742](field-tests/moby-moby-46742/README.md) | `moby/moby` | diagnostic-proof | upstream-pr-recorded | 2026-06-04 |
 | [Node.js #22448](field-tests/nodejs-node-22448/README.md) | `nodejs/node` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-07 |
