@@ -9,7 +9,7 @@ repairs, public comments, and upstream PR outcomes.
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
 | [Deno #30652](field-tests/denoland-deno-30652/README.md) | `denoland/deno` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-06 |
-| [Docker Compose #13613](field-tests/docker-compose-13613/README.md) | `docker/compose` | repair | upstream-pr-recorded | 2026-06-09 |
+| [Docker Compose #13613](field-tests/docker-compose-13613/README.md) | `docker/compose` | repair | upstream-accepted | 2026-06-12 |
 | [Kubernetes #138670](field-tests/kubernetes-kubernetes-138670/README.md) | `kubernetes/kubernetes` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-03 |
 | [Kubernetes #138728](field-tests/kubernetes-kubernetes-138728/README.md) | `kubernetes/kubernetes` | diagnostic-proof-and-repair | repair-recorded | 2026-06-06 |
 | [LangChain #34818](field-tests/langchain-ai-langchain-34818/README.md) | `langchain-ai/langchain` | repair | repair-recorded | 2026-06-04 |
@@ -20,6 +20,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Node.js #22448](field-tests/nodejs-node-22448/README.md) | `nodejs/node` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-07 |
 | [Open WebUI #25038](field-tests/open-webui-open-webui-25038/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
 | [Open WebUI #25235](field-tests/open-webui-open-webui-25235/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
+| [pnpm #12240](field-tests/pnpm-pnpm-12240/README.md) | `pnpm/pnpm` | repair | upstream-accepted | 2026-06-10 |
 | [pnpm #12222](field-tests/pnpm-pnpm-12222/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-11 |
 | [Rust #157047](field-tests/rust-lang-rust-157047/README.md) | `rust-lang/rust` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-11 |
 | [Next.js #54482](field-tests/vercel-next-js-54482/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-04 |

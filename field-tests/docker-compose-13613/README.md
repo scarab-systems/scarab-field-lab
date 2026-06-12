@@ -4,8 +4,8 @@ slug: docker-compose-13613
 repository: docker/compose
 issue_url: https://github.com/docker/compose/issues/13613
 mode: repair
-status: upstream-pr-recorded
-recorded_at: 2026-06-09
+status: upstream-accepted
+recorded_at: 2026-06-12
 ---
 # Docker Compose #13613
 
@@ -13,8 +13,9 @@ recorded_at: 2026-06-09
 
 - Repository: `docker/compose`
 - Issue: https://github.com/docker/compose/issues/13613
+- Pull request: https://github.com/docker/compose/pull/13831
 - Mode: repair
-- Status: upstream-pr-recorded
+- Status: upstream-accepted
 
 ## Diagnostic finding
 
@@ -40,6 +41,12 @@ recorded_at: 2026-06-09
 - Diff check: git diff --check
 - Diff check result: passed
 
+## Public review status
+
+- Upstream pull request docker/compose#13831 was merged on 2026-06-12.
+- Merge commit: docker/compose@6ded3140df8da4997fbd111bd7e21b41ec0f8891
+- Reviewer-requested coverage for the remote-stack `up` prompt path was included before merge.
+
 ## Public links
 
 - https://github.com/docker/compose/issues/13613
@@ -47,13 +54,11 @@ recorded_at: 2026-06-09
 
 ## Changed public files
 
+- cmd/compose/compose.go
 - cmd/compose/config.go
 - cmd/compose/options.go
 - cmd/compose/options_test.go
-
-## Assistance disclosure
-
-AI assistance, if used, did not determine the diagnostic finding.
+- cmd/compose/up_test.go
 
 ## Record limits
 
