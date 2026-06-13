@@ -18,6 +18,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Visual Studio Code #314457](field-tests/microsoft-vscode-314457/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | public-comment-recorded | 2026-06-04 |
 | [Moby #46742](field-tests/moby-moby-46742/README.md) | `moby/moby` | diagnostic-proof | upstream-pr-recorded | 2026-06-04 |
 | [Node.js #22448](field-tests/nodejs-node-22448/README.md) | `nodejs/node` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-07 |
+| [OpenAPI Generator #23550](field-tests/openapitools-openapi-generator-23550/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-13 |
 | [Open WebUI #25038](field-tests/open-webui-open-webui-25038/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
 | [Open WebUI #25235](field-tests/open-webui-open-webui-25235/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
 | [pnpm #12240](field-tests/pnpm-pnpm-12240/README.md) | `pnpm/pnpm` | repair | upstream-accepted | 2026-06-10 |
