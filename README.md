@@ -4,22 +4,13 @@
   <img src="assets/scarab-mascot.png" alt="Scarab Systems mascot holding a circuit-board lollipop" width="220">
 </p>
 
-Scarab Field Lab is the public case library for Scarab Diagnostic Suite field
-tests.
+Scarab Field Lab is the public case library for selected Scarab Diagnostic Suite field tests.
 
-Scarab Diagnostic Suite is proprietary and not open source. This repository
-publishes public case records only: public links, specific diagnostic findings,
-validation notes, and, when applicable, the public status of a human-reviewed
-patch or upstream pull request. It does not contain SDS source code, internal
-diagnostic rules, product internals, private run artifacts, or implementation
-details.
+Scarab Diagnostic Suite is a proprietary diagnostic system for software drift. It identifies boundary failures, repo-truth drift, verification gaps, and evidence-backed repair lanes in complex codebases. AI-assisted development is one high-pressure use case; the diagnostic theory applies to drifted software systems generally.
 
-Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repository
-evidence, compares expected and observed behavior, and records specific
-findings. It is not an AI coding agent, does not use AI to determine diagnostic
-truth, and does not submit unattended patches. AI assistance may help after
-bounded diagnostic evidence exists with patch drafting or summaries, but public
-submissions remain human reviewed.
+This repository publishes public case records only: public issue and pull request links, specific diagnostic findings, validation notes, claim boundaries, and, when applicable, the public status of a human-reviewed patch or upstream pull request. It does not contain SDS source code, internal diagnostic rules, product internals, private run artifacts, or implementation details.
+
+Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repository evidence, compares expected and observed behavior, and records specific findings. It is not an AI coding agent, does not use AI to determine diagnostic truth, and does not submit unattended patches. AI assistance may help after bounded diagnostic evidence exists with patch drafting or summaries, but public submissions remain human reviewed.
 
 ## What This Repo Shows
 
@@ -41,10 +32,7 @@ submissions remain human reviewed.
 
 ## Suggest A Field Lab Candidate
 
-If you know of a public open-source issue that looks like cross-layer drift,
-unclear ownership, AI-assisted code drift, or a boundary failure, you may
-suggest it as a Field Lab candidate through the public channels Scarab Systems
-provides for Field Lab feedback. Useful suggestions include the public issue
+If you know of a public open-source issue that looks like cross-layer drift, unclear ownership, software drift, AI-assisted code drift, phase confusion, or a boundary failure. Useful suggestions include the public issue
 link, the suspected boundary, reproduction notes if available, and why the case
 may be diagnostically interesting. Candidate suggestions are for Field Lab
 review only; they are not requests for SDS access or product changes.
