@@ -6,7 +6,11 @@
 
 Scarab Field Lab is the public case library for selected Scarab Diagnostic Suite field tests.
 
-Scarab Diagnostic Suite is a proprietary diagnostic system for software drift. It identifies boundary failures, repo-truth drift, verification gaps, and evidence-backed repair lanes in complex codebases. AI-assisted development is one high-pressure use case; the diagnostic theory applies to drifted software systems generally.
+Scarab Diagnostic Suite is proprietary and is not currently distributed as a public installable tool. Public materials describe selected diagnostic field tests and software-drift concepts only.
+
+Scarab does not automate repairs or replace maintainers. It identifies evidence-backed diagnostic findings: boundary failures, repo-truth drift, verification gaps, and repair lanes.
+
+Any repair is performed by maintainers, developers, or authorized agents outside the public Field Lab.
 
 This repository publishes public case records only: public issue and pull request links, specific diagnostic findings, validation notes, claim boundaries, and, when applicable, the public status of a human-reviewed patch or upstream pull request. It does not contain SDS source code, internal diagnostic rules, product internals, private run artifacts, or implementation details.
 
