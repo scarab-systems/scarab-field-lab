@@ -4,7 +4,7 @@ slug: pnpm-pnpm-12222
 repository: pnpm/pnpm
 issue_url: https://github.com/pnpm/pnpm/issues/12222
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-06-11
 ---
 # pnpm #12222
@@ -15,7 +15,7 @@ recorded_at: 2026-06-11
 - Issue: https://github.com/pnpm/pnpm/issues/12222
 - Pull request: https://github.com/pnpm/pnpm/pull/12327
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-accepted
 
 ## Diagnostic finding
 
@@ -44,19 +44,21 @@ recorded_at: 2026-06-11
 - Git fetcher test: `pnpm --filter @pnpm/fetching.git-fetcher test`
 - Git fetcher test result: passed; 16 tests.
 - Pre-push hook: passed after using the repository-required Rust toolchain first in `PATH`; optional tools skipped by the hook were not required for this patch.
-- Public PR checks at recording: CodeQL, JavaScript analysis, dependency audit, compile/lint, zizmor, and CodeRabbit passed; Node.js 24 test and benchmark jobs were still pending.
+- Public PR checks before merge: GitHub showed 20 of 21 checks passed when the PR was merged.
 
 ## Public review status
 
-- CodeRabbit review completed with no actionable comments.
-- Qodo review reported no bugs, rule violations, or requirement gaps.
-- No unresolved inline review threads were present at recording.
-- Maintainer review was still pending at recording.
+- Upstream pull request pnpm/pnpm#12327 was approved by a pnpm maintainer on 2026-06-16.
+- The PR was labeled `state: automerge` and merged into `pnpm:main` on 2026-06-16.
+- Merge commit: pnpm/pnpm@30c7590a264a069b7da674cec5c147babd657a07
+- Public review discussed Qodo observations about test scope and temporary-directory permissions; the maintainer accepted the focused invariant test and kept the `fs.mkdtemp()` behavior.
+- The merged pull request closed pnpm/pnpm#12222.
 
 ## Public links
 
 - https://github.com/pnpm/pnpm/issues/12222
 - https://github.com/pnpm/pnpm/pull/12327
+- https://github.com/pnpm/pnpm/pull/12327#pullrequestreview-4510031140
 
 ## Changed public files
 
