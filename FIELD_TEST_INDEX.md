@@ -18,6 +18,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Visual Studio Code #247522](field-tests/microsoft-vscode-247522/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-11 |
 | [Visual Studio Code #314457](field-tests/microsoft-vscode-314457/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | public-comment-recorded | 2026-06-04 |
 | [Moby #46742](field-tests/moby-moby-46742/README.md) | `moby/moby` | diagnostic-proof | upstream-pr-recorded | 2026-06-04 |
+| [NautilusTrader #3549](field-tests/nautechsystems-nautilus-trader-3549/README.md) | `nautechsystems/nautilus_trader` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [Node.js #22448](field-tests/nodejs-node-22448/README.md) | `nodejs/node` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-07 |
 | [OpenAPI Generator #23550](field-tests/openapitools-openapi-generator-23550/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-13 |
 | [OpenAPI Generator #23920](field-tests/openapitools-openapi-generator-23920/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-16 |
