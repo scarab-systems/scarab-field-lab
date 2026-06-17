@@ -16,6 +16,7 @@ recorded_at: 2026-06-17
 - Pull request: https://github.com/nautechsystems/nautilus_trader/pull/4285
 - Mode: diagnostic-proof-and-repair
 - Status: upstream-pr-recorded
+- Review outcome: closed without merge
 
 ## Diagnostic finding
 
@@ -42,7 +43,7 @@ recorded_at: 2026-06-17
   types.
 - Not claimed: This does not make consolidation merge files with conflicting
   metadata.
-- Not claimed: nautechsystems/nautilus_trader#4285 has not merged at recording.
+- Not claimed: nautechsystems/nautilus_trader#4285 was not merged.
 
 ## Validation record
 
@@ -53,12 +54,12 @@ recorded_at: 2026-06-17
 - Existing conflicting-metadata consolidation guard test passed locally.
 - Ruff check on changed public files passed locally.
 - Python bytecode compilation for changed public files passed locally.
-- Public pull request status at recording: open and ready for review.
+- Public pull request status after maintainer event: closed without merge.
 
 ## Public review status
 
-- nautechsystems/nautilus_trader#4285 is open against
-  `nautechsystems:develop`.
+- nautechsystems/nautilus_trader#4285 was closed without merge by an upstream
+  maintainer on 2026-06-17.
 - The pull request was opened from the public `scarab-systems/nautilus_trader`
   fork.
 
@@ -66,6 +67,7 @@ recorded_at: 2026-06-17
 
 - https://github.com/nautechsystems/nautilus_trader/issues/3549
 - https://github.com/nautechsystems/nautilus_trader/pull/4285
+- https://github.com/nautechsystems/nautilus_trader/pull/4285#event-26858534908
 
 ## Changed public files
 
