@@ -25,6 +25,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Open WebUI #25235](field-tests/open-webui-open-webui-25235/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
 | [pnpm #12240](field-tests/pnpm-pnpm-12240/README.md) | `pnpm/pnpm` | repair | upstream-accepted | 2026-06-10 |
 | [pnpm #12222](field-tests/pnpm-pnpm-12222/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-06-11 |
+| [QuantConnect Lean #9440](field-tests/quantconnect-lean-9440/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [React #33054](field-tests/react-react-33054/README.md) | `react/react` | repair | upstream-pr-recorded | 2026-06-12 |
 | [Rust #157047](field-tests/rust-lang-rust-157047/README.md) | `rust-lang/rust` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-11 |
 | [Next.js #54482](field-tests/vercel-next-js-54482/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-04 |
