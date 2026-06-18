@@ -4,7 +4,7 @@ slug: openapitools-openapi-generator-23550
 repository: OpenAPITools/openapi-generator
 issue_url: https://github.com/OpenAPITools/openapi-generator/issues/23550
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-06-13
 ---
 # OpenAPI Generator #23550
@@ -15,7 +15,7 @@ recorded_at: 2026-06-13
 - Issue: https://github.com/OpenAPITools/openapi-generator/issues/23550
 - Pull request: https://github.com/OpenAPITools/openapi-generator/pull/24022
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-accepted
 
 ## Diagnostic finding
 
@@ -30,7 +30,6 @@ recorded_at: 2026-06-13
 - Add a generated-output regression fixture for the reported boolean `const: true` case.
 - Not claimed: This does not change Kotlin enum naming behavior.
 - Not claimed: This does not redesign OpenAPI 3.1 `const` handling outside the boolean enum literal path.
-- Not claimed: OpenAPITools/openapi-generator#24022 has not merged at recording.
 
 ## Validation record
 
@@ -44,6 +43,11 @@ recorded_at: 2026-06-13
 - Diff check: `git diff --check`
 - Diff check result: passed.
 - Public PR status at recording: open, mergeable, with review/check activity in progress.
+
+## Public review status
+
+- OpenAPITools/openapi-generator#24022 was merged on 2026-06-14.
+- Merge commit: OpenAPITools/openapi-generator@7b535a95b2c58cf1c84c4a677071123a535a3ea4
 
 ## Public links
 

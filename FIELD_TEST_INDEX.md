@@ -20,7 +20,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Moby #46742](field-tests/moby-moby-46742/README.md) | `moby/moby` | diagnostic-proof | upstream-pr-recorded | 2026-06-04 |
 | [NautilusTrader #3549](field-tests/nautechsystems-nautilus-trader-3549/README.md) | `nautechsystems/nautilus_trader` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [Node.js #22448](field-tests/nodejs-node-22448/README.md) | `nodejs/node` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-07 |
-| [OpenAPI Generator #23550](field-tests/openapitools-openapi-generator-23550/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-13 |
+| [OpenAPI Generator #23550](field-tests/openapitools-openapi-generator-23550/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-accepted | 2026-06-13 |
 | [OpenAPI Generator #23920](field-tests/openapitools-openapi-generator-23920/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-16 |
 | [Open WebUI #25038](field-tests/open-webui-open-webui-25038/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
 | [Open WebUI #25235](field-tests/open-webui-open-webui-25235/README.md) | `open-webui/open-webui` | repair | upstream-pr-recorded | 2026-05-31 |
