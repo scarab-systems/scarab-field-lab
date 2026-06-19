@@ -27,6 +27,7 @@ repairs, public comments, and upstream PR outcomes.
 | [pnpm #12240](field-tests/pnpm-pnpm-12240/README.md) | `pnpm/pnpm` | repair | upstream-accepted | 2026-06-10 |
 | [pnpm #12222](field-tests/pnpm-pnpm-12222/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-06-11 |
 | [Prometheus #11505](field-tests/prometheus-prometheus-11505/README.md) | `prometheus/prometheus` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-19 |
+| [Prometheus #12244](field-tests/prometheus-prometheus-12244/README.md) | `prometheus/prometheus` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-19 |
 | [QuantConnect Lean #6360](field-tests/quantconnect-lean-6360/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [QuantConnect Lean #9440](field-tests/quantconnect-lean-9440/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [React #33054](field-tests/react-react-33054/README.md) | `react/react` | repair | upstream-pr-recorded | 2026-06-12 |
