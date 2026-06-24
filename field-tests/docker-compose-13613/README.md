@@ -46,11 +46,17 @@ recorded_at: 2026-06-12
 - Upstream pull request docker/compose#13831 was merged on 2026-06-12.
 - Merge commit: docker/compose@6ded3140df8da4997fbd111bd7e21b41ec0f8891
 - Reviewer-requested coverage for the remote-stack `up` prompt path was included before merge.
+- Docker Compose v5.2.0, released on 2026-06-23, lists docker/compose#13831
+  under fixes and lists `@scarab-systems` as a new contributor.
+- Rancher Desktop merged rancher-sandbox/rancher-desktop#10513 on
+  2026-06-24, bumping its `dockerCompose` dependency from 5.1.4 to 5.2.0.
 
 ## Public links
 
 - https://github.com/docker/compose/issues/13613
 - https://github.com/docker/compose/pull/13831
+- https://github.com/docker/compose/releases/tag/v5.2.0
+- https://github.com/rancher-sandbox/rancher-desktop/pull/10513
 
 ## Changed public files
 
