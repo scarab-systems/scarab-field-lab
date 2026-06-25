@@ -4,8 +4,9 @@ slug: rust-lang-rust-157047
 repository: rust-lang/rust
 issue_url: https://github.com/rust-lang/rust/issues/157047
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: repair-recorded
 recorded_at: 2026-06-11
+last_updated: 2026-06-25
 ---
 # Rust #157047
 
@@ -13,9 +14,9 @@ recorded_at: 2026-06-11
 
 - Repository: `rust-lang/rust`
 - Issue: https://github.com/rust-lang/rust/issues/157047
-- Pull request: https://github.com/rust-lang/rust/pull/157724
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: repair-recorded
+- Public status: no upstream Rust PR is listed for this case.
 
 ## Diagnostic finding
 
@@ -34,19 +35,13 @@ recorded_at: 2026-06-11
 
 ## Validation record
 
-- Public bors try build: passed.
-- Public perf benchmark: completed; primary instruction-count regressions were zero.
-- Public perf note: secondary instruction-count movement was reported at about 0.2%, and the Rust perf report marked the result "no action needed."
-- Public perf labels: `S-waiting-on-perf` and `perf-regression` were removed after the benchmark completed.
-- Public PR state at recording: open, mergeable, labeled `T-compiler` and `S-waiting-on-review`.
-- No unresolved review threads were present at recording.
+- A focused UI regression was prepared for the recursive raw-pointer pointee
+  layout path.
+- A local repair was recorded, but no accepted upstream Rust change is claimed.
 
 ## Public links
 
 - https://github.com/rust-lang/rust/issues/157047
-- https://github.com/rust-lang/rust/pull/157724
-- https://github.com/rust-lang/rust/pull/157724#issuecomment-4676102279
-- https://github.com/rust-lang/rust/pull/157724#issuecomment-4685399923
 
 ## Changed public files
 

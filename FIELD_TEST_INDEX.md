@@ -31,7 +31,7 @@ repairs, public comments, and upstream PR outcomes.
 | [QuantConnect Lean #6360](field-tests/quantconnect-lean-6360/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [QuantConnect Lean #9440](field-tests/quantconnect-lean-9440/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [React #33054](field-tests/react-react-33054/README.md) | `react/react` | repair | upstream-pr-recorded | 2026-06-12 |
-| [Rust #157047](field-tests/rust-lang-rust-157047/README.md) | `rust-lang/rust` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-11 |
+| [Rust #157047](field-tests/rust-lang-rust-157047/README.md) | `rust-lang/rust` | diagnostic-proof-and-repair | repair-recorded | 2026-06-11 |
 | [Next.js #54482](field-tests/vercel-next-js-54482/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-04 |
 | [Next.js #81161](field-tests/vercel-next-js-81161/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-12 |
 | [Next.js #86784](field-tests/vercel-next-js-86784/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-06 |
