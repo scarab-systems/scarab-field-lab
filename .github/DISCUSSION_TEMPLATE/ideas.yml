@@ -1,0 +1,103 @@
+name: Suggest a Field Lab Candidate
+description: Suggest a messy repo, public issue, failure report, or boundary problem for Scarab Field Lab review.
+title: "Candidate: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a Scarab Field Lab candidate.
+
+        Scarab Field Lab reviews selected public or shareable repos, issues, PRs, failure reports, and drift surfaces that may be diagnostically interesting.
+        Submitting a candidate does not guarantee that Scarab will run on it, publish a report, open a PR, or attempt a repair.
+        Do not include secrets, credentials, private customer data, proprietary source, internal logs, or confidential details.
+
+  - type: input
+    id: repo
+    attributes:
+      label: Public or shareable repo
+      description: Public repos are easiest. Company/private repos can start as a conversation, but do not paste confidential details here.
+      placeholder: "https://github.com/org/repo"
+    validations:
+      required: true
+
+  - type: input
+    id: issue_or_failure
+    attributes:
+      label: Public issue, PR, failure report, or relevant thread
+      description: Link to the public issue, PR, failing workflow, bug report, discussion, or other public signal if available.
+      placeholder: "https://github.com/org/repo/issues/123"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what_looks_messy
+    attributes:
+      label: What looks messy, broken, confusing, stale, or hard to reason about?
+      description: Briefly describe the problem or why the repo looks diagnostically interesting.
+      placeholder: "Example: The issue appears to cross build config, runtime behavior, and test expectations. The failure changes depending on environment."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: suspected_boundary
+    attributes:
+      label: Suspected boundary surface
+      description: Pick the closest boundary surface if you know it. If unsure, choose unknown / needs triage.
+      options:
+        - unknown / needs triage
+        - agentic workflow drift
+        - API contract drift
+        - async / event / queue drift
+        - build / dependency drift
+        - configuration / environment drift
+        - data contract drift
+        - deployment / release drift
+        - financial / protocol contract drift
+        - framework drift
+        - frontend / UI / runtime drift
+        - infrastructure drift
+        - integration / external service drift
+        - market execution integrity drift
+        - MCP / tool drift
+        - memory / RAG drift
+        - observability / operations drift
+        - persistence drift
+        - security / auth drift
+        - service architecture drift
+        - verification drift
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction notes
+      description: Include public/shareable commands, logs, screenshots, versions, environment notes, failing checks, or steps to reproduce.
+      placeholder: |
+        Commands:
+        Environment:
+        Failing check:
+        Logs / screenshots:
+    validations:
+      required: false
+
+  - type: textarea
+    id: why_good_candidate
+    attributes:
+      label: Why might this be a good Scarab Field Lab case?
+      description: Explain why this looks like drift, unclear ownership, boundary failure, repo-truth mismatch, or full-stack coherence trouble.
+      placeholder: "Example: The bug is not isolated to one file; it appears to involve contract expectations across runtime config, tests, and release behavior."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure and safety confirmation
+      options:
+        - label: This submission contains only public or shareable information.
+          required: true
+        - label: No secrets, credentials, private customer data, proprietary source, internal logs, or confidential details are included.
+          required: true
+        - label: I understand this is a candidate suggestion for review, not guaranteed acceptance, repair, publication, or upstream PR work.
+          required: true
