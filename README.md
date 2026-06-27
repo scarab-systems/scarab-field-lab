@@ -36,10 +36,13 @@ Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repository
 
 ## Suggest A Field Lab Candidate
 
-If you know of a public open-source issue that looks like cross-layer drift, unclear ownership, software drift, AI-assisted code drift, phase confusion, or a boundary failure. Useful suggestions include the public issue
-link, the suspected boundary, reproduction notes if available, and why the case
-may be diagnostically interesting. Candidate suggestions are for Field Lab
-review only; they are not requests for SDS access or product changes.
+Use the [Ideas discussion form](https://github.com/scarab-systems/scarab-field-lab/discussions/new?category=ideas)
+to suggest a public Field Lab candidate.
+
+Useful suggestions include the public issue link, the suspected boundary,
+reproduction notes if available, and why the case may be diagnostically
+interesting. Candidate suggestions are for Field Lab review only; they are not
+requests for SDS access or product changes.
 
 ## Start Here
 
