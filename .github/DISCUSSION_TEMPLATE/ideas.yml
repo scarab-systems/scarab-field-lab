@@ -1,10 +1,10 @@
-name: Suggest a Field Lab Candidate
-description: Suggest a messy repo, public issue, failure report, or boundary problem for Scarab Field Lab review.
 title: "Candidate: "
 body:
   - type: markdown
     attributes:
       value: |
+        ## Suggest a Field Lab Candidate
+
         Thanks for suggesting a Scarab Field Lab candidate.
 
         Scarab Field Lab reviews selected public or shareable repos, issues, PRs, failure reports, and drift surfaces that may be diagnostically interesting.
