@@ -9,6 +9,7 @@ repairs, public comments, and upstream PR outcomes.
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
 | [Deno #30652](field-tests/denoland-deno-30652/README.md) | `denoland/deno` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-06 |
+| [Docker Compose #13602](field-tests/docker-compose-13602/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-30 |
 | [Docker Compose #13613](field-tests/docker-compose-13613/README.md) | `docker/compose` | repair | upstream-accepted | 2026-06-12 |
 | [Hummingbot #7294 and #7295](field-tests/hummingbot-hummingbot-7294/README.md) | `hummingbot/hummingbot` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [Kubernetes #138670](field-tests/kubernetes-kubernetes-138670/README.md) | `kubernetes/kubernetes` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-03 |
