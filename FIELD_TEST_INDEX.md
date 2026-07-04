@@ -12,7 +12,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Docker Compose #13602](field-tests/docker-compose-13602/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-30 |
 | [Docker Compose #13613](field-tests/docker-compose-13613/README.md) | `docker/compose` | repair | upstream-accepted | 2026-06-12 |
 | [Electron #51988](field-tests/electron-electron-51988/README.md) | `electron/electron` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-03 |
-| [xdg-desktop-portal-wlr #379](field-tests/emersion-xdg-desktop-portal-wlr-379/README.md) | `emersion/xdg-desktop-portal-wlr` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-03 |
+| [xdg-desktop-portal-wlr #379](field-tests/emersion-xdg-desktop-portal-wlr-379/README.md) | `emersion/xdg-desktop-portal-wlr` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-03 |
 | [xdg-desktop-portal #1947](field-tests/flatpak-xdg-desktop-portal-1947/README.md) | `flatpak/xdg-desktop-portal` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-03 |
 | [Hummingbot #7294 and #7295](field-tests/hummingbot-hummingbot-7294/README.md) | `hummingbot/hummingbot` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [Kubernetes #138670](field-tests/kubernetes-kubernetes-138670/README.md) | `kubernetes/kubernetes` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-03 |

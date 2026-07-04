@@ -4,7 +4,7 @@ slug: emersion-xdg-desktop-portal-wlr-379
 repository: emersion/xdg-desktop-portal-wlr
 issue_url: https://github.com/emersion/xdg-desktop-portal-wlr/issues/379
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-07-03
 ---
 # xdg-desktop-portal-wlr #379
@@ -15,7 +15,7 @@ recorded_at: 2026-07-03
 - Issue: https://github.com/emersion/xdg-desktop-portal-wlr/issues/379
 - Pull request: https://github.com/emersion/xdg-desktop-portal-wlr/pull/393
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-accepted
 
 ## Diagnostic finding
 
@@ -38,8 +38,6 @@ recorded_at: 2026-07-03
 - Preserve existing behavior for callers that explicitly provide `types`;
   explicit option parsing still overwrites the default.
 - Keep the public portal method shape unchanged.
-- Not claimed: emersion/xdg-desktop-portal-wlr#393 has not merged at
-  recording.
 - Not claimed: This record does not claim runtime verification across every
   Wayland compositor, PipeWire setup, or distribution package.
 
@@ -79,18 +77,19 @@ review cost.
 
 ## Public review status
 
-- emersion/xdg-desktop-portal-wlr#393 is open against
-  `emersion/xdg-desktop-portal-wlr:master`.
-- The pull request was opened from the public
-  `scarab-systems/screencast-selectsources-default-monitor` branch.
-- The pull request is related to emersion/xdg-desktop-portal-wlr#379.
-- Public status at recording: open, ready for review, mergeable, and not
-  merged.
+- emersion/xdg-desktop-portal-wlr#393 was approved by project owner `emersion`
+  on 2026-07-04.
+- The pull request was merged into `emersion/xdg-desktop-portal-wlr:master` on
+  2026-07-04.
+- Merge commit:
+  emersion/xdg-desktop-portal-wlr@ea80500a3b6ab381776d4bd5ee615b44dc8d7b54
+- The merged pull request is related to emersion/xdg-desktop-portal-wlr#379.
 
 ## Public links
 
 - https://github.com/emersion/xdg-desktop-portal-wlr/issues/379
 - https://github.com/emersion/xdg-desktop-portal-wlr/pull/393
+- https://github.com/emersion/xdg-desktop-portal-wlr/pull/393#pullrequestreview-4629798245
 
 ## Changed public files
 
