@@ -4,7 +4,7 @@ slug: openapitools-openapi-generator-23920
 repository: OpenAPITools/openapi-generator
 issue_url: https://github.com/OpenAPITools/openapi-generator/issues/23920
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-16
 ---
 # OpenAPI Generator #23920
@@ -16,7 +16,8 @@ recorded_at: 2026-06-16
 - Pull request: https://github.com/OpenAPITools/openapi-generator/pull/24023
 - PR update: https://github.com/OpenAPITools/openapi-generator/pull/24023#issuecomment-4715563936
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Review outcome: closed without merge
 
 ## Diagnostic finding
 
@@ -36,15 +37,20 @@ recorded_at: 2026-06-16
   sample dependency compatibility issue.
 - Not claimed: This does not redesign Rust model validation.
 - Not claimed: This does not change non-Rust generators.
-- Not claimed: OpenAPITools/openapi-generator#24023 has not merged at recording.
+- Not claimed: OpenAPITools/openapi-generator#24023 was closed without merge.
 
 ## Validation record
 
 - Targeted Rust server generator regression test: passed.
 - Local Rust server sample builds: passed for all-features, no-default-features,
   and client-only sample package coverage.
-- Public PR status at update: open, with refreshed upstream CI still running.
+- Public PR status at latest update: closed without merge on 2026-07-06.
 - Not claimed: This record does not claim all upstream CI checks have completed.
+
+## Public review status
+
+- OpenAPITools/openapi-generator#24023 was closed without merge on 2026-07-06.
+- The case remains a public repair record, not an upstream acceptance claim.
 
 ## Public links
 

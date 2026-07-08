@@ -22,4 +22,6 @@ issue text as proof by itself.
   records.
 - `upstream-pr-recorded`: a human-reviewed upstream PR or draft PR is publicly
   linked.
+- `upstream-closed`: a public upstream PR was closed without merge, superseded,
+  or withdrawn. The case remains a public record, not an acceptance claim.
 - `upstream-accepted`: an upstream maintainer accepted or merged the public PR.

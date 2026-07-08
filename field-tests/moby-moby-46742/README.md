@@ -4,7 +4,7 @@ slug: moby-moby-46742
 repository: moby/moby
 issue_url: https://github.com/moby/moby/issues/46742
 mode: diagnostic-proof
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-04
 ---
 # Moby #46742
@@ -13,8 +13,10 @@ recorded_at: 2026-06-04
 
 - Repository: `moby/moby`
 - Issue: https://github.com/moby/moby/issues/46742
+- Pull request: https://github.com/moby/moby/pull/52761
 - Mode: diagnostic-proof
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Review outcome: closed without merge
 
 ## Diagnostic finding
 
@@ -27,7 +29,15 @@ recorded_at: 2026-06-04
 
 ## Validation record
 
-- None recorded in this case.
+- Public pull request status: closed without merge on 2026-06-05.
+- Not claimed: This case does not claim an accepted Moby engine or harness
+  change.
+
+## Public review status
+
+- moby/moby#52761 was closed without merge on 2026-06-05.
+- The pull request proposed harness visibility only; no engine or snapshotter
+  repair is claimed from this case.
 
 ## Public links
 

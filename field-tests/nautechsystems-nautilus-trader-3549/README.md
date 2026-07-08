@@ -4,7 +4,7 @@ slug: nautechsystems-nautilus-trader-3549
 repository: nautechsystems/nautilus_trader
 issue_url: https://github.com/nautechsystems/nautilus_trader/issues/3549
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-17
 ---
 # NautilusTrader #3549
@@ -15,7 +15,7 @@ recorded_at: 2026-06-17
 - Issue: https://github.com/nautechsystems/nautilus_trader/issues/3549
 - Pull request: https://github.com/nautechsystems/nautilus_trader/pull/4285
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
 - Review outcome: closed without merge
 
 ## Diagnostic finding

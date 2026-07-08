@@ -4,7 +4,7 @@ slug: open-webui-open-webui-25038
 repository: open-webui/open-webui
 issue_url: https://github.com/open-webui/open-webui/issues/25038
 mode: repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-05-31
 ---
 # Open WebUI #25038
@@ -13,8 +13,10 @@ recorded_at: 2026-05-31
 
 - Repository: `open-webui/open-webui`
 - Issue: https://github.com/open-webui/open-webui/issues/25038
+- Pull request: https://github.com/open-webui/open-webui/pull/25275
 - Mode: repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Review outcome: closed without merge
 
 ## Diagnostic finding
 
@@ -37,6 +39,12 @@ recorded_at: 2026-05-31
 - Ruff targeted check: uv run --frozen --python 3.12 --with python-mimeparse --with ruff --group dev ruff check backend/open_webui/utils/response.py backend/open_webui/test/util/test_middleware_source_context.py
 - Ruff targeted result: All checks passed!
 - Ruff scope note: Full-file ruff on middleware.py still reports unrelated upstream lint debt outside this patch.
+- Public pull request status: closed without merge on 2026-06-01.
+
+## Public review status
+
+- open-webui/open-webui#25275 was closed without merge on 2026-06-01.
+- Not claimed: This case does not claim upstream acceptance or merge.
 
 ## Public links
 

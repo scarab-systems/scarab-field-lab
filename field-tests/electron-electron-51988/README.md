@@ -62,6 +62,8 @@ recorded_at: 2026-07-03
 - The pull request is related to electron/electron#51988.
 - Public status at recording: open, ready for review, mergeable, and not
   merged.
+- Earlier pull request electron/electron#52234 was closed on 2026-07-02 and
+  superseded by electron/electron#52238.
 
 ## Public links
 

@@ -4,7 +4,7 @@ slug: flatpak-xdg-desktop-portal-1947
 repository: flatpak/xdg-desktop-portal
 issue_url: https://github.com/flatpak/xdg-desktop-portal/issues/1947
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-07-03
 ---
 # xdg-desktop-portal #1947
@@ -15,7 +15,8 @@ recorded_at: 2026-07-03
 - Issue: https://github.com/flatpak/xdg-desktop-portal/issues/1947
 - Pull request: https://github.com/flatpak/xdg-desktop-portal/pull/2054
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Review outcome: closed without merge
 
 ## Diagnostic finding
 
@@ -43,7 +44,7 @@ recorded_at: 2026-07-03
 - Add regression coverage for an app that already has a Flatpak instance before
   background monitoring starts, and verify that `BackgroundApps` lists it.
 - Keep the public Background portal interface unchanged.
-- Not claimed: flatpak/xdg-desktop-portal#2054 has not merged at latest update.
+- Not claimed: flatpak/xdg-desktop-portal#2054 was closed without merge.
 - Not claimed: This record does not claim runtime verification across every
   desktop environment, Flatpak application, or distribution package.
 
@@ -107,8 +108,7 @@ not recalculated for that later review cycle.
 
 ## Public review status
 
-- flatpak/xdg-desktop-portal#2054 is open against
-  `flatpak/xdg-desktop-portal:main`.
+- flatpak/xdg-desktop-portal#2054 was closed without merge on 2026-07-06.
 - The pull request was opened from the public
   `scarab-systems/background-monitor-startup-sync` branch.
 - The pull request is related to flatpak/xdg-desktop-portal#1947.
@@ -117,8 +117,7 @@ not recalculated for that later review cycle.
   initialization.
 - A follow-up commit changed the repair to monitor-start discovery and added
   regression coverage.
-- Public status at latest update: open, not draft, not merged, reported by
-  GitHub as behind the base branch, and current checks were not green.
+- Public status at latest update: closed without merge on 2026-07-06.
 
 ## Public links
 
