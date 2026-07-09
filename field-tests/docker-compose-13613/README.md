@@ -50,6 +50,10 @@ recorded_at: 2026-06-12
   under fixes and lists `@scarab-systems` as a new contributor.
 - Rancher Desktop merged rancher-sandbox/rancher-desktop#10513 on
   2026-06-24, bumping its `dockerCompose` dependency from 5.1.4 to 5.2.0.
+- Rancher Desktop 2 merged rancher-sandbox/rancher-desktop-2#540 on
+  2026-07-08, bumping its `dockerCompose` dependency from 5.1.4 to 5.3.1.
+- The Rancher Desktop 2 dependency update includes the Docker Compose v5.2.0
+  release notes that list docker/compose#13831 under fixes.
 
 ## Public links
 
@@ -57,6 +61,8 @@ recorded_at: 2026-06-12
 - https://github.com/docker/compose/pull/13831
 - https://github.com/docker/compose/releases/tag/v5.2.0
 - https://github.com/rancher-sandbox/rancher-desktop/pull/10513
+- https://github.com/rancher-sandbox/rancher-desktop-2/pull/540
+- https://github.com/rancher-sandbox/rancher-desktop-2/commit/1154d74fee747ce6111cd2c7a7606b747cd22666
 
 ## Changed public files
 
