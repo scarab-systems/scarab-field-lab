@@ -37,6 +37,7 @@ repairs, public comments, and upstream PR outcomes.
 | [QuantConnect Lean #9440](field-tests/quantconnect-lean-9440/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [React #33054](field-tests/react-react-33054/README.md) | `react/react` | repair | upstream-pr-recorded | 2026-06-12 |
 | [Rust #157047](field-tests/rust-lang-rust-157047/README.md) | `rust-lang/rust` | diagnostic-proof-and-repair | repair-recorded | 2026-06-11 |
+| [Saleor #17908](field-tests/saleor-saleor-17908/README.md) | `saleor/saleor` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-12 |
 | [SvelteKit #9785](field-tests/sveltejs-kit-9785/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-07 |
 | [Next.js #54482](field-tests/vercel-next-js-54482/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-04 |
 | [Next.js #81161](field-tests/vercel-next-js-81161/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-12 |
