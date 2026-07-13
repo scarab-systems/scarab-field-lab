@@ -9,6 +9,7 @@ repairs, public comments, and upstream PR outcomes.
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
 | [Deno #30652](field-tests/denoland-deno-30652/README.md) | `denoland/deno` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-06 |
+| [Directus #24029](field-tests/directus-directus-24029/README.md) | `directus/directus` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-13 |
 | [Docker Compose #13602](field-tests/docker-compose-13602/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-30 |
 | [Docker Compose #13613](field-tests/docker-compose-13613/README.md) | `docker/compose` | repair | upstream-accepted | 2026-06-12 |
 | [Electron #51988](field-tests/electron-electron-51988/README.md) | `electron/electron` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-03 |
