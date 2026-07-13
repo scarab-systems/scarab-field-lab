@@ -18,6 +18,9 @@ recorded_at: 2026-06-04
 
 ## Diagnostic finding
 
+- The repair boundary was image optimizer output buffering: optimized Sharp
+  output needed to be collected under the existing response-body budget instead
+  of buffered without bounds before size enforcement.
 
 ## Repair scope
 

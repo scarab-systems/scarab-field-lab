@@ -20,6 +20,10 @@ recorded_at: 2026-05-31
 
 ## Diagnostic finding
 
+- The repair boundary was web-search generated-query response normalization
+  before source/context assembly: non-OpenAI-style error responses needed a
+  fallback to the original user query instead of being treated as choices
+  payloads.
 
 ## Repair scope
 

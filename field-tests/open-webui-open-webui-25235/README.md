@@ -20,7 +20,9 @@ recorded_at: 2026-05-31
 
 ## Diagnostic finding
 
-- None recorded in this case.
+- The repair boundary was optional `chat_id` metadata normalization in
+  background task handling before prefix checks, so missing or non-string chat
+  metadata could not crash the task path.
 
 ## Repair scope
 

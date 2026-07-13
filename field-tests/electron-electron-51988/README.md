@@ -16,6 +16,7 @@ recorded_at: 2026-07-03
 - Pull request: https://github.com/electron/electron/pull/52238
 - Mode: diagnostic-proof-and-repair
 - Status: upstream-pr-recorded
+- Downstream status: Arch Linux carried the patch in its `electron42` package.
 
 ## Diagnostic finding
 
@@ -64,14 +65,20 @@ recorded_at: 2026-07-03
   merged.
 - Earlier pull request electron/electron#52234 was closed on 2026-07-02 and
   superseded by electron/electron#52238.
+- Downstream carry: Arch Linux applied this patch in version 42.6.0-1 of its
+  `electron42` package, and a public commenter confirmed that downstream package
+  patch fixes electron/electron#51988.
+- Not claimed: downstream package carry does not mean upstream Electron has
+  merged or accepted electron/electron#52238.
 
 ## Public links
 
 - https://github.com/electron/electron/issues/51988
 - https://github.com/electron/electron/pull/52238
 - https://github.com/electron/electron/pull/52234
+- https://github.com/electron/electron/pull/52238#issuecomment-4907611340
+- https://gitlab.archlinux.org/archlinux/packaging/packages/electron42/-/merge_requests/1
 - https://gitlab.archlinux.org/archlinux/packaging/packages/code/-/work_items/58
-- https://github.com/microsoft/vscode/issues/320788
 
 ## Changed public files
 

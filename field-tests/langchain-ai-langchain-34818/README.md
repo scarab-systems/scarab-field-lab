@@ -18,6 +18,10 @@ recorded_at: 2026-06-04
 
 ## Diagnostic finding
 
+- The repair boundary was ToolStrategy first-turn tool-choice binding: agents
+  with real tools and structured output should allow the first model turn to
+  choose normally, then force structured-output tool selection after tool
+  results exist.
 
 ## Repair scope
 

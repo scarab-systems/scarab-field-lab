@@ -18,7 +18,10 @@ recorded_at: 2026-06-09
 
 ## Diagnostic finding
 
-- None recorded in this case.
+- The repair boundary was Next.js workspace-root inference when duplicate
+  lockfiles are discovered: the case focused on distinguishing a stray parent
+  lockfile from the application lockfile while keeping the duplicate-lockfile
+  warning surface explicit.
 
 ## Repair scope
 

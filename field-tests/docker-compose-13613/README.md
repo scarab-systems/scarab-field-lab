@@ -19,7 +19,10 @@ recorded_at: 2026-06-12
 
 ## Diagnostic finding
 
-- None recorded in this case.
+- The repair boundary was Compose variable discovery over non-interpolated
+  configuration models: unresolved interpolation expressions in typed fields
+  needed to be inspected for variable names without weakening normal Compose
+  validation.
 
 ## Repair scope
 
