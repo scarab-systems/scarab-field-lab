@@ -4,7 +4,7 @@ slug: sveltejs-kit-9785
 repository: sveltejs/kit
 issue_url: https://github.com/sveltejs/kit/issues/9785
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-07-07
 ---
 # SvelteKit #9785
@@ -15,7 +15,7 @@ recorded_at: 2026-07-07
 - Issue: https://github.com/sveltejs/kit/issues/9785
 - Pull request: https://github.com/sveltejs/kit/pull/16268
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-accepted
 
 ## Diagnostic finding
 
@@ -44,13 +44,15 @@ recorded_at: 2026-07-07
 - Not claimed: This does not change the documented limitation that redirects
   cannot be thrown from streamed promises after the response has started.
 - Not claimed: This does not redesign SvelteKit's streamed data API.
-- Not claimed: sveltejs/kit#16268 has not merged at recording.
+- Not claimed: This record does not claim that sveltejs/kit#9785 was closed by
+  this pull request.
 
 ## Validation record
 
-- Public contribution branch was based on SvelteKit's public `main` branch.
-- Latest public pull request head recorded here:
-  `83f2ce23cdbd0e72fb7aa4a11d5e62237988fd3c`.
+- Public contribution branch was rebased onto SvelteKit's public `version-3`
+  branch after maintainer review.
+- Latest accepted public pull request head recorded here:
+  `456e37877955e14003d12a30473b398375c67a98`.
 - Format check passed on touched files:
   `pnpm exec prettier --check ...`
 - Package check passed: `pnpm --dir packages/kit check`.
@@ -63,26 +65,28 @@ recorded_at: 2026-07-07
 - A reduced full `pnpm test:kit` run was attempted. The new regression passed
   inside that run, but the full command failed on an existing unrelated no-SSR
   dev test. That unrelated failure was not changed in this repair.
-- Public pull request status at recording: open and not draft, with upstream
-  review required.
-- Public checks visible at recording: several upstream CI jobs had passed and
-  several remained pending. No failed GitHub checks were visible at recording.
-- Not claimed: This record does not claim upstream review, CI completion, or
-  merge.
+- Public checks visible before merge included successful `lint-all`, `test-kit`,
+  cross-browser, server-side route-resolution, Svelte async, and `test-others`
+  CI jobs. No failed GitHub checks were visible at acceptance.
 
 ## Public review status
 
-- sveltejs/kit#16268 is open against `sveltejs/kit:main`.
 - The pull request was opened from the public `scarab-systems/kit` fork.
-- The pull request is linked as fixing sveltejs/kit#9785.
-- GitHub's review-decision field showed review required at recording.
-- GitHub's merge-state field showed blocked while review and checks were still
-  pending.
+- During review, a SvelteKit maintainer clarified that the pull request
+  addressed a distinct streamed-data rejection race demonstrated by the failing
+  regression test.
+- A SvelteKit maintainer requested retargeting the pull request onto the
+  `version-3` branch; the branch was rebased and the pull request was retargeted.
+- Rich Harris approved the pull request on 2026-07-14.
+- The pull request was merged into `sveltejs/kit:version-3` on 2026-07-14.
+- Merge commit: sveltejs/kit@9f3d9bbb0c63e7197c23f7529565542c2d77e592
 
 ## Public links
 
 - https://github.com/sveltejs/kit/issues/9785
 - https://github.com/sveltejs/kit/pull/16268
+- https://github.com/sveltejs/kit/pull/16268#issuecomment-4970546974
+- https://github.com/sveltejs/kit/pull/16268#pullrequestreview-4697542518
 
 ## Changed public files
 
