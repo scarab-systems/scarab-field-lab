@@ -25,6 +25,7 @@ Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repository
 - Public validation summaries.
 - Assistance notes where relevant.
 - The current field-test index: [FIELD_TEST_INDEX.md](FIELD_TEST_INDEX.md).
+- The current feature PR index: [FEATURE_PR_INDEX.md](FEATURE_PR_INDEX.md).
 
 ## What This Repo Does Not Show
 
@@ -48,6 +49,7 @@ requests for SDS access or product changes.
 
 - [Scarab Boundary Contract](SCARAB_BOUNDARY_CONTRACT.md)
 - [Field Test Method](docs/field-test-method.md)
+- [Feature PR Index](FEATURE_PR_INDEX.md)
 - [AI-Assisted Public Work Policy](docs/ai-assisted-public-work-policy.md)
 - [Public Evidence Policy](docs/public-evidence-policy.md)
 - [Contribution Status](CONTRIBUTING.md)
