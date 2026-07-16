@@ -4,7 +4,7 @@ slug: open-multi-agent-open-multi-agent-96
 repository: open-multi-agent/open-multi-agent
 issue_url: https://github.com/open-multi-agent/open-multi-agent/issues/96
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-07-15
 ---
 # Open Multi Agent #96
@@ -15,7 +15,7 @@ recorded_at: 2026-07-15
 - Issue: https://github.com/open-multi-agent/open-multi-agent/issues/96
 - Pull request: https://github.com/open-multi-agent/open-multi-agent/pull/377
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-accepted
 
 ## Diagnostic finding
 
@@ -53,8 +53,6 @@ recorded_at: 2026-07-15
   the issue.
 - Not claimed: This does not add a general policy engine, sandbox, or isolation
   layer.
-- Not claimed: open-multi-agent/open-multi-agent#377 has not merged at
-  recording.
 
 ## Validation record
 
@@ -68,26 +66,23 @@ recorded_at: 2026-07-15
   `npm run build`, `npm run test:coverage`, and `npm run test:scaffold`.
 - Package smoke checks passed for built entry-point imports, CLI help, template
   typechecking, and tarball file lists.
-- Public pull request status at recording: open and not draft.
-- Maintainer edits were enabled at recording.
-- GitHub checks had not yet reported on the pull request branch at recording.
-- Not claimed: This record does not claim upstream review, CI completion, or
-  merge.
+- Public pull request status update: merged on 2026-07-16.
+- Merge commit: open-multi-agent/open-multi-agent@e87080b6f792c0fdf17692b852415dc9c615ab8f
 
 ## Public review status
 
-- open-multi-agent/open-multi-agent#377 is open against
-  `open-multi-agent/open-multi-agent:main`.
 - The pull request was opened from the public `scarab-systems/open-multi-agent`
   fork.
 - The pull request is linked as closing open-multi-agent/open-multi-agent#96.
-- GitHub's merge-state field showed blocked while review and checks were
-  pending at recording.
+- Open Multi Agent maintainer Jack Chen merged the pull request into
+  `open-multi-agent/open-multi-agent:main` on 2026-07-16.
+- Merge commit: open-multi-agent/open-multi-agent@e87080b6f792c0fdf17692b852415dc9c615ab8f
 
 ## Public links
 
 - https://github.com/open-multi-agent/open-multi-agent/issues/96
 - https://github.com/open-multi-agent/open-multi-agent/pull/377
+- https://github.com/open-multi-agent/open-multi-agent/pull/377#event-28049299035
 
 ## Changed public files
 
