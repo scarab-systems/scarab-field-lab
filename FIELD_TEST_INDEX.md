@@ -27,6 +27,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Node.js #22448](field-tests/nodejs-node-22448/README.md) | `nodejs/node` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-07 |
 | [OpenAPI Generator #23550](field-tests/openapitools-openapi-generator-23550/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-accepted | 2026-06-13 |
 | [OpenAPI Generator #23920](field-tests/openapitools-openapi-generator-23920/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-closed | 2026-06-16 |
+| [Open Multi Agent #96](field-tests/open-multi-agent-open-multi-agent-96/README.md) | `open-multi-agent/open-multi-agent` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-15 |
 | [Open WebUI #25038](field-tests/open-webui-open-webui-25038/README.md) | `open-webui/open-webui` | repair | upstream-closed | 2026-05-31 |
 | [Open WebUI #25235](field-tests/open-webui-open-webui-25235/README.md) | `open-webui/open-webui` | repair | upstream-closed | 2026-05-31 |
 | [pnpm #9191](field-tests/pnpm-pnpm-9191/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-07 |
