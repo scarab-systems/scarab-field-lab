@@ -8,7 +8,7 @@ repairs, public comments, and upstream PR outcomes.
 
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
-| [SvelteKit #15511](field-tests/sveltejs-kit-15511/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-19 |
+| [SvelteKit #15511](field-tests/sveltejs-kit-15511/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-19 |
 | [Open Multi Agent #96](field-tests/open-multi-agent-open-multi-agent-96/README.md) | `open-multi-agent/open-multi-agent` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-16 |
 | [SvelteKit #9785](field-tests/sveltejs-kit-9785/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-14 |
 | [Directus #24029](field-tests/directus-directus-24029/README.md) | `directus/directus` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-13 |

@@ -4,7 +4,7 @@ slug: sveltejs-kit-15511
 repository: sveltejs/kit
 issue_url: https://github.com/sveltejs/kit/issues/15511
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-07-19
 ---
 # SvelteKit #15511
@@ -15,7 +15,7 @@ recorded_at: 2026-07-19
 - Issue: https://github.com/sveltejs/kit/issues/15511
 - Pull request: https://github.com/sveltejs/kit/pull/16423
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-accepted
 
 ## Diagnostic finding
 
@@ -61,24 +61,33 @@ recorded_at: 2026-07-19
   That area was not changed in this repair.
 - Public CI visible shortly after opening included passing `lint-all`,
   cross-browser, server-side route-resolution, Svelte async, and `test-others`
-  jobs, with some `test-kit` and preview jobs still pending at record time.
+  jobs.
+- Before merge, Rich Harris added a public Changesets file marking the fix as a
+  patch change for `@sveltejs/kit`.
+- Changeset commit: sveltejs/kit@3338528cdaec3a69658fc87f7b86ee026a90ce30
 
 ## Public review status
 
 - The pull request was opened from the public `scarab-systems/kit` fork.
 - The pull request targets `sveltejs/kit:version-3`.
-- The pull request was open and not draft at record time.
-- Maintainer edits were enabled at record time.
 - The pull request is framed as related to sveltejs/kit#15511 because the full
   issue conditions were not reliably reproduced.
+- Rich Harris approved and merged the pull request into
+  `sveltejs/kit:version-3` on 2026-07-19.
+- Merge commit: sveltejs/kit@b88c7a7ba07c0a9309598aebcb86709f8a09c443
+- Not claimed: This record does not claim that the fix has reached a published
+  package version yet. The public changeset marks it for a future release.
 
 ## Public links
 
 - https://github.com/sveltejs/kit/issues/15511
 - https://github.com/sveltejs/kit/pull/16423
+- https://github.com/sveltejs/kit/commit/3338528cdaec3a69658fc87f7b86ee026a90ce30
+- https://github.com/sveltejs/kit/commit/b88c7a7ba07c0a9309598aebcb86709f8a09c443
 
 ## Changed public files
 
+- .changeset/common-wings-doubt.md
 - packages/kit/src/runtime/client/ndjson.js
 - packages/kit/src/runtime/client/ndjson.spec.js
 - packages/kit/src/runtime/client/stream.js
