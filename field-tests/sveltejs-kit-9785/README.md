@@ -80,11 +80,18 @@ recorded_at: 2026-07-07
 - Rich Harris approved the pull request on 2026-07-14.
 - The pull request was merged into `sveltejs/kit:version-3` on 2026-07-14.
 - Merge commit: sveltejs/kit@9f3d9bbb0c63e7197c23f7529565542c2d77e592
+- The accepted fix was included in the SvelteKit `version-3` prerelease train
+  by the public Changesets release pull request sveltejs/kit#16344.
+- Release commit: sveltejs/kit@ff7e0a328c7db605fa3150bf855a1ffe2a4ce633
+- The generated changelog entry appears under `@sveltejs/kit@3.0.0-next.9`
+  as: `fix: handle rejected streamed server data after delayed loads`.
 
 ## Public links
 
 - https://github.com/sveltejs/kit/issues/9785
 - https://github.com/sveltejs/kit/pull/16268
+- https://github.com/sveltejs/kit/pull/16344
+- https://github.com/sveltejs/kit/commit/ff7e0a328c7db605fa3150bf855a1ffe2a4ce633
 - https://github.com/sveltejs/kit/pull/16268#issuecomment-4970546974
 - https://github.com/sveltejs/kit/pull/16268#pullrequestreview-4697542518
 
