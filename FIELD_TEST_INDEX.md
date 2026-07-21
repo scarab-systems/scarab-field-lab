@@ -8,6 +8,8 @@ repairs, public comments, and upstream PR outcomes.
 
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
+| [NemoClaw #7273](field-tests/nvidia-nemoclaw-7273/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-21 |
+| [NemoClaw #6042](field-tests/nvidia-nemoclaw-6042/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-21 |
 | [Docker Compose #12948](field-tests/docker-compose-12948/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-19 |
 | [SvelteKit #15511](field-tests/sveltejs-kit-15511/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-19 |
 | [Open Multi Agent #96](field-tests/open-multi-agent-open-multi-agent-96/README.md) | `open-multi-agent/open-multi-agent` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-16 |
