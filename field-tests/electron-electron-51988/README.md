@@ -4,7 +4,7 @@ slug: electron-electron-51988
 repository: electron/electron
 issue_url: https://github.com/electron/electron/issues/51988
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-07-03
 ---
 # Electron #51988
@@ -15,8 +15,10 @@ recorded_at: 2026-07-03
 - Issue: https://github.com/electron/electron/issues/51988
 - Pull request: https://github.com/electron/electron/pull/52238
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
-- Downstream status: Arch Linux carried the patch in its `electron42` package.
+- Status: upstream-accepted
+- Upstream status: electron/electron#52238 merged on 2026-07-21.
+- Downstream status: Arch Linux had previously carried the patch in its
+  `electron42` package.
 
 ## Diagnostic finding
 
@@ -39,7 +41,6 @@ recorded_at: 2026-07-03
   platform.
 - Keep the existing GTK message-box implementation and public Electron API
   shape unchanged.
-- Not claimed: electron/electron#52238 has not merged at recording.
 - Not claimed: This record does not claim upstream Electron release binaries
   were affected; the public issue notes the reported condition depends on Qt
   backend build settings.
@@ -50,31 +51,36 @@ recorded_at: 2026-07-03
   `yarn lint:cpp --only -- shell/browser/ui/message_box_gtk.cc`.
 - Pull request validation records:
   `third_party/ninja/ninja -C out/LinuxTesting obj/electron/electron_lib/message_box_gtk.o`.
-- Public checks visible at recording: PR template, signed commits,
-  Socket Security alerts, Socket project report, and release notes passed.
-- Public checks still pending at recording: semver label enforcement,
-  backport label handling, and faraday/cage.
+- Public pull request status update: merged on 2026-07-21.
+- Merge commit: electron/electron@2cd3a56f2d5ef057b16b2b22033ab3aa918c65c6
+- Public checks visible before merge included passing PR template, signed
+  commits, release notes, semver label enforcement, faraday/cage, Linux,
+  macOS, Windows, and backport-label checks.
 
 ## Public review status
 
-- electron/electron#52238 is open against `electron/electron:main`.
 - The pull request was opened from the public
   `scarab-systems/electron-51988-gtk-messagebox-platform-v2` branch.
 - The pull request is related to electron/electron#51988.
-- Public status at recording: open, ready for review, mergeable, and not
+- Electron maintainers approved and merged electron/electron#52238 into
+  `electron/electron:main` on 2026-07-21.
+- Merge commit: electron/electron@2cd3a56f2d5ef057b16b2b22033ab3aa918c65c6
+- electron/electron#51988 was closed on 2026-07-21 after the pull request
   merged.
 - Earlier pull request electron/electron#52234 was closed on 2026-07-02 and
   superseded by electron/electron#52238.
 - Downstream carry: Arch Linux applied this patch in version 42.6.0-1 of its
   `electron42` package, and a public commenter confirmed that downstream package
   patch fixes electron/electron#51988.
-- Not claimed: downstream package carry does not mean upstream Electron has
-  merged or accepted electron/electron#52238.
+- Not claimed: This record does not claim the fix has reached an upstream
+  Electron release build.
 
 ## Public links
 
 - https://github.com/electron/electron/issues/51988
 - https://github.com/electron/electron/pull/52238
+- https://github.com/electron/electron/pull/52238#event-28243443185
+- https://github.com/electron/electron/commit/2cd3a56f2d5ef057b16b2b22033ab3aa918c65c6
 - https://github.com/electron/electron/pull/52234
 - https://github.com/electron/electron/pull/52238#issuecomment-4907611340
 - https://gitlab.archlinux.org/archlinux/packaging/packages/electron42/-/merge_requests/1
