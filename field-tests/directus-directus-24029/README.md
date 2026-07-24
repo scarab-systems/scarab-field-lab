@@ -4,7 +4,7 @@ slug: directus-directus-24029
 repository: directus/directus
 issue_url: https://github.com/directus/directus/issues/24029
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-07-13
 ---
 # Directus #24029
@@ -15,7 +15,8 @@ recorded_at: 2026-07-13
 - Issue: https://github.com/directus/directus/issues/24029
 - Pull request: https://github.com/directus/directus/pull/27899
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-accepted
+- Upstream status: directus/directus#27899 merged on 2026-07-24.
 
 ## Diagnostic finding
 
@@ -25,63 +26,78 @@ recorded_at: 2026-07-13
 - The issue is publicly labeled `Bug`, `Help Wanted`, `Studio`, `Med Impact`,
   and `Low Reach`.
 - The repair area centered on the current-user save flow in the app.
-- Directus already rehydrated the user store after saving the signed-in user's
-  record, but permission state was not rehydrated afterward.
-- That allowed permission presets using updated `$CURRENT_USER.*` values to keep
-  stale current-user context until a later login/session refresh.
+- Directus already refreshed the user store after saving the signed-in user's
+  record, but related permission preset state could keep the prior
+  `$CURRENT_USER.*` values until a later session refresh.
+- During review, the maintainers confirmed that `/permissions/me` already
+  returns resolved preset values. That meant the current-user save flow needed
+  to refresh permissions after the user record refresh, while redundant
+  client-side preset parsing could be removed.
 
 ## Repair scope
 
-- Rehydrate the permissions store after the current user is saved and the user
-  store is refreshed.
-- Add a regression test for the current-user save path.
-- Add a patch changeset for `@directus/app`.
-- Not claimed: This does not change generic relationship dropdown behavior.
+- Refresh permissions after the signed-in user is saved and the current-user
+  store has been refreshed.
+- Remove redundant client-side preset parsing now that resolved presets are
+  supplied by `/permissions/me`.
+- Preserve display of a forbidden related item key by matching the Directus
+  `FORBIDDEN` error code rather than only relying on status.
+- Add focused coverage for the permissions preset behavior and relationship
+  field fallback.
+- Add patch changesets for `@directus/app`.
 - Not claimed: This does not redesign Directus permission presets.
-- Not claimed: directus/directus#27899 has not merged at recording.
+- Not claimed: This does not change the server-side permission resolver
+  contract.
 
 ## Validation record
 
 - Public contribution branch was based on Directus's public `main` branch.
-- Latest public pull request head recorded here:
-  `5d3d33444a0c0eb2f76752f59a7553bb676826e9`.
-- Targeted app tests passed:
-  `volta run --node 22.22.2 pnpm --filter @directus/app test app/src/modules/users/routes/item.test.ts app/src/stores/permissions.test.ts app/src/stores/user.test.ts`.
-- Targeted app test result: 36 passed, 0 failed.
-- Touched-file lint passed:
-  `volta run --node 22.22.2 pnpm exec eslint app/src/modules/users/routes/item.vue app/src/modules/users/routes/item.test.ts`.
-- Touched-file format check passed:
-  `volta run --node 22.22.2 pnpm exec prettier --check --ignore-unknown app/src/modules/users/routes/item.vue app/src/modules/users/routes/item.test.ts .changeset/fresh-users-remember.md`.
-- Touched-file style check passed:
-  `volta run --node 22.22.2 pnpm exec stylelint app/src/modules/users/routes/item.vue app/src/modules/users/routes/item.test.ts .changeset/fresh-users-remember.md --allow-empty-input`.
-- Changeset status check passed:
-  `volta run --node 22.22.2 pnpm exec changeset status --since origin/main`.
-- Public upstream checks passing at recording: Lint, Format, Stylelint, Unit
-  Tests, Changeset Check, and Codecov patch checks.
-- Public upstream blockers visible at recording: CLA Assistant required
-  contributor action, and the Codecov project check was failing while patch
-  coverage checks passed.
-- Not claimed: This record does not claim upstream review, CI completion, or
-  merge.
+- Latest public pull request head before merge:
+  `6bad91ae45fca40465c2289b1aa1eac5d0eed805`.
+- During review, public comments recorded focused local app checks for the
+  current-user save path, permissions preset behavior, relationship field
+  fallback, touched-file lint/format checks, and whitespace hygiene.
+- Public pull request checks visible at merge included passing CLA Assistant,
+  Changeset Check, Lint, Format, Stylelint, Unit Tests, Codecov patch checks,
+  and Codecov project checks.
+- Public pull request status update: merged into `directus/directus:main` on
+  2026-07-24.
+- Merge commit: directus/directus@a2ad7462e30ac257d65f5514d35121ee0da55028
 
 ## Public review status
 
-- directus/directus#27899 is open against `directus/directus:main`.
+- directus/directus#27899 was opened against `directus/directus:main`.
 - The pull request was opened from the public `scarab-systems/directus` fork.
 - The pull request is linked as fixing directus/directus#24029.
-- GitHub's mergeability field showed mergeable at recording.
-- Contributor CLA action was still required at recording.
+- Maintainer `ComfortablyCoding` reproduced the issue after additional
+  reproduction details were supplied.
+- During review, the maintainers initially explored moving preset resolution to
+  consumption sites. After further investigation, `ComfortablyCoding` posted a
+  corrective review note confirming that the original refresh-permissions
+  approach was the right approach for the current implementation.
+- `ComfortablyCoding` approved and merged the pull request on 2026-07-24.
+- The merged pull request closed directus/directus#24029 as completed.
 
 ## Public links
 
 - https://github.com/directus/directus/issues/24029
 - https://github.com/directus/directus/pull/27899
+- https://github.com/directus/directus/pull/27899#issuecomment-5070913947
+- https://github.com/directus/directus/pull/27899#issuecomment-5072015800
+- https://github.com/directus/directus/commit/a2ad7462e30ac257d65f5514d35121ee0da55028
 
 ## Changed public files
 
-- .changeset/fresh-users-remember.md
-- app/src/modules/users/routes/item.test.ts
+- .changeset/brave-otters-cheer.md
+- .changeset/silent-melons-relate.md
+- app/src/composables/use-relation-single.test.ts
+- app/src/composables/use-relation-single.ts
 - app/src/modules/users/routes/item.vue
+- app/src/stores/permissions.test.ts
+- app/src/stores/permissions.ts
+- app/src/utils/parse-preset.test.ts
+- app/src/utils/parse-preset.ts
+- contributors.yml
 
 ## Record limits
 
