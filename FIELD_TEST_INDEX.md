@@ -18,7 +18,7 @@ repairs, public comments, and upstream PR outcomes.
 | [SvelteKit #9785](field-tests/sveltejs-kit-9785/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-14 |
 | [Directus #24029](field-tests/directus-directus-24029/README.md) | `directus/directus` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-13 |
 | [Saleor #17908](field-tests/saleor-saleor-17908/README.md) | `saleor/saleor` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-12 |
-| [pnpm #9191](field-tests/pnpm-pnpm-9191/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-07 |
+| [pnpm #9191](field-tests/pnpm-pnpm-9191/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-07 |
 | [Electron #51988](field-tests/electron-electron-51988/README.md) | `electron/electron` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-03 |
 | [xdg-desktop-portal-wlr #379](field-tests/emersion-xdg-desktop-portal-wlr-379/README.md) | `emersion/xdg-desktop-portal-wlr` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-03 |
 | [xdg-desktop-portal #1947](field-tests/flatpak-xdg-desktop-portal-1947/README.md) | `flatpak/xdg-desktop-portal` | diagnostic-proof-and-repair | upstream-closed | 2026-07-03 |

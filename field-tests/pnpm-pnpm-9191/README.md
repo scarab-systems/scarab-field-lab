@@ -4,7 +4,7 @@ slug: pnpm-pnpm-9191
 repository: pnpm/pnpm
 issue_url: https://github.com/pnpm/pnpm/issues/9191
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-07-07
 ---
 # pnpm #9191
@@ -15,7 +15,7 @@ recorded_at: 2026-07-07
 - Issue: https://github.com/pnpm/pnpm/issues/9191
 - Pull request: https://github.com/pnpm/pnpm/pull/12841
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-accepted
 
 ## Diagnostic finding
 
@@ -46,13 +46,12 @@ recorded_at: 2026-07-07
   environment-file behavior, error handling, and append formatting.
 - Not claimed: This does not redesign pnpm's global-bin-dir detection.
 - Not claimed: This does not change non-GitHub shell-profile setup behavior.
-- Not claimed: pnpm/pnpm#12841 has not merged at recording.
 
 ## Validation record
 
 - Public contribution branch was based on pnpm's public `main` branch.
 - Latest public pull request head recorded here:
-  `b88165064f047a4d00ede017c1a64df7dffb2b6f`.
+  `e97a233f4df9e79e84db0252ef09cbae654ae9df`.
 - TypeScript setup test passed: `jest test/setup/setup.test.ts --runInBand`.
 - TypeScript setup test result: 12 passed, 0 failed.
 - Rust setup tests passed:
@@ -68,23 +67,24 @@ recorded_at: 2026-07-07
 - Independent container verification at the latest public head passed:
   `cargo nextest run -p pacquet-cli --lib cli_args::setup::tests`.
 - Independent container verification result: 11 passed, 0 failed.
-- Public pull request status at recording: open, not draft, with upstream CI
-  still queued or in progress.
-- Public checks visible at recording: several upstream CI jobs were still
-  pending. CodeRabbit's review status was approved.
-- Not claimed: This record does not claim upstream review, CI completion, or
-  merge.
+- Public pull request status at latest refresh: merged into `pnpm:main`.
+- Public checks visible at merge: GitHub showed 34 checks passed.
+- Public review status at merge: approved by pnpm maintainer `zkochan` and
+  CodeRabbit.
 
 ## Public review status
 
-- pnpm/pnpm#12841 is open against `pnpm:main`.
+- pnpm/pnpm#12841 was merged into `pnpm:main` on 2026-07-24.
 - The pull request was opened from the public `scarab-systems/pnpm` fork.
 - The pull request is linked as fixing pnpm/pnpm#9191.
+- Merge commit: pnpm/pnpm@4737386533f2de9dd79031c64f8d46825a260d8f
+- The merged pull request closed pnpm/pnpm#9191.
 - A public reply was posted to the final CodeRabbit thread with current-head
   test evidence for the root-agnostic Rust setup test.
 - After that reply, CodeRabbit approved the review and no unresolved review
-  threads were visible. GitHub's review-decision field moved to review
-  required, with upstream maintainer review and CI still pending.
+  threads were visible.
+- pnpm maintainer `zkochan` approved the pull request on 2026-07-23.
+- GitHub applied the `state: automerge` label before the merge.
 
 ## Public links
 
@@ -96,10 +96,11 @@ recorded_at: 2026-07-07
 
 - .changeset/pnpm-setup-github-actions.md
 - Cargo.lock
-- pacquet/crates/cli/Cargo.toml
-- pacquet/crates/cli/src/cli_args/setup.rs
-- pacquet/crates/cli/src/cli_args/setup/tests.rs
-- pacquet/crates/cmd-shim/src/shim.rs
+- pnpm/crates/cli/Cargo.toml
+- pnpm/crates/cli/src/cli_args/setup.rs
+- pnpm/crates/cli/src/cli_args/setup/gh_actions_env.rs
+- pnpm/crates/cli/src/cli_args/setup/gh_actions_env/tests.rs
+- pnpm11/engine/pm/commands/src/setup/ghActionsEnv.ts
 - pnpm11/engine/pm/commands/src/setup/setup.ts
 - pnpm11/engine/pm/commands/test/setup/setup.test.ts
 
