@@ -4,7 +4,7 @@ slug: nvidia-nemoclaw-7273
 repository: NVIDIA/NemoClaw
 issue_url: https://github.com/NVIDIA/NemoClaw/issues/7273
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-07-21
 ---
 # NemoClaw #7273
@@ -15,7 +15,7 @@ recorded_at: 2026-07-21
 - Issue: https://github.com/NVIDIA/NemoClaw/issues/7273
 - Pull request: https://github.com/NVIDIA/NemoClaw/pull/7291
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
 
 ## Diagnostic finding
 
@@ -45,7 +45,7 @@ recorded_at: 2026-07-21
   at the forward-start boundary.
 - Add regression coverage for the supervisor-relaunch caller path where a busy
   pinned managed probe is retried before the replacement forward starts.
-- Not claimed: NVIDIA/NemoClaw#7291 has not merged at recording.
+- Not claimed: NVIDIA/NemoClaw#7291 did not merge.
 - Not claimed: This record does not claim that NVIDIA's credentialed E2E gate
   has completed.
 
@@ -72,17 +72,17 @@ recorded_at: 2026-07-21
 - PR Review Advisor status at recording: informational, with 0 blockers, 0
   warnings, and 0 suggestions.
 - CodeRabbit's recent review at recording reported no actionable comments.
+- Public status refresh on 2026-07-25 found NVIDIA/NemoClaw#7291 closed without
+  merge and NVIDIA/NemoClaw#7273 closed.
 
 ## Public review status
 
-- NVIDIA/NemoClaw#7291 is open against `NVIDIA/NemoClaw:main`.
+- NVIDIA/NemoClaw#7291 was opened against `NVIDIA/NemoClaw:main`.
 - The pull request was opened from the public `scarab-systems/NemoClaw` fork.
 - The pull request is related to NVIDIA/NemoClaw#7273.
-- Public status at recording: open, not draft, and not merged.
-- GitHub review status at recording: review required.
-- GitHub merge-state field at recording: blocked.
-- Maintainer edits were enabled at recording.
-- NVIDIA-side E2E gate coordination was still in progress at recording.
+- Public status at refresh: closed without merge.
+- The related issue was closed on 2026-07-24.
+- No upstream merge or acceptance is claimed for this case.
 
 ## Public links
 
