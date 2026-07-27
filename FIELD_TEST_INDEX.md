@@ -8,6 +8,7 @@ repairs, public comments, and upstream PR outcomes.
 
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
+| [Microsoft Agent Framework #7045](field-tests/microsoft-agent-framework-7045/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-closed | 2026-07-27 |
 | [NemoClaw #7387](field-tests/nvidia-nemoclaw-7387/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-25 |
 | [Twenty #22934](field-tests/twentyhq-twenty-22934/README.md) | `twentyhq/twenty` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-23 |
 | [Microsoft Agent Framework #7160](field-tests/microsoft-agent-framework-7160/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-21 |
