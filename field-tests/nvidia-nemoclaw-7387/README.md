@@ -17,6 +17,8 @@ recorded_at: 2026-07-25
 - Mode: diagnostic-proof-and-repair
 - Status: upstream-accepted
 - Upstream status: NVIDIA/NemoClaw#7406 merged on 2026-07-25.
+- Release record: NVIDIA's NemoClaw v0.0.96 announcement on 2026-07-27
+  references this contribution and thanks `@scarab-systems`.
 
 ## Diagnostic finding
 
@@ -61,6 +63,9 @@ recorded_at: 2026-07-25
 - Public pull request status update: merged into `NVIDIA/NemoClaw:main` on
   2026-07-25.
 - Merge commit: NVIDIA/NemoClaw@f69598075495366a4587ee6d0556383cbba74392
+- Public release announcement record: NemoClaw v0.0.96 references
+  NVIDIA/NemoClaw#7406 as incomplete lifecycle-registration diagnostics and
+  thanks `@scarab-systems` for the accepted contribution.
 
 ## Public review status
 
@@ -77,6 +82,7 @@ recorded_at: 2026-07-25
 - https://github.com/NVIDIA/NemoClaw/pull/7406#issuecomment-5053102021
 - https://github.com/NVIDIA/NemoClaw/pull/7406#event-28471659599
 - https://github.com/NVIDIA/NemoClaw/commit/f69598075495366a4587ee6d0556383cbba74392
+- https://github.com/NVIDIA/NemoClaw/discussions/7656
 
 ## Changed public files
 

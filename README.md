@@ -58,6 +58,11 @@ work continuing past a first accepted patch: learning local conventions,
 responding to review, adding repository-native tests, and keeping the final
 claim tied to the target project's own evidence.
 
+NVIDIA's NemoClaw v0.0.96 release announcement publicly thanked
+`@scarab-systems` for the accepted NemoClaw contributions in
+[NVIDIA/NemoClaw#7254](https://github.com/NVIDIA/NemoClaw/pull/7254) and
+[NVIDIA/NemoClaw#7406](https://github.com/NVIDIA/NemoClaw/pull/7406).
+
 ## Contribution Method
 
 Public Field Lab records document a repeatable contribution method without
@@ -87,7 +92,7 @@ range of accepted work without replacing the underlying evidence.
 | Record | Merged PR | Focus | Public validation or review signal |
 | --- | --- | --- | --- |
 | [pnpm #12240](field-tests/pnpm-pnpm-12240/README.md) | [pnpm/pnpm#12301](https://github.com/pnpm/pnpm/pull/12301) | `self-upgrade` dependency-status handling when no manifest is present. | Targeted Jest tests, TypeScript build, and package lint passed before merge. |
-| [NemoClaw #6042](field-tests/nvidia-nemoclaw-6042/README.md) | [NVIDIA/NemoClaw#7254](https://github.com/NVIDIA/NemoClaw/pull/7254) | Empty policy-preset resume contract coverage. | Targeted Vitest and integration tests passed; maintainer approved and merged the test-only contribution. |
+| [NemoClaw #6042](field-tests/nvidia-nemoclaw-6042/README.md) | [NVIDIA/NemoClaw#7254](https://github.com/NVIDIA/NemoClaw/pull/7254) | Empty policy-preset resume contract coverage. | Targeted Vitest and integration tests passed; maintainer approved and merged the test-only contribution. The v0.0.96 release announcement later credited the contribution. |
 | [SvelteKit #9785](field-tests/sveltejs-kit-9785/README.md) | [sveltejs/kit#16268](https://github.com/sveltejs/kit/pull/16268) | Streamed server-data rejection race handling. | Repository checks and focused Playwright regressions passed; maintainer review retargeted and approved the PR. |
 | [Docker Compose #13613](field-tests/docker-compose-13613/README.md) | [docker/compose#13831](https://github.com/docker/compose/pull/13831) | Variable extraction over unresolved Compose config values. | Focused and package Go tests, lint, and diff checks passed before merge. |
 | [Microsoft Agent Framework #7160](field-tests/microsoft-agent-framework-7160/README.md) | [microsoft/agent-framework#7189](https://github.com/microsoft/agent-framework/pull/7189) | Python MCP sampling conversion for structured tool-use results. | Public checks and maintainer approvals completed before merge. |
