@@ -7,7 +7,7 @@
 Scarab Field Lab is the public case library for selected Scarab Diagnostic
 Suite field tests and public feature pull request records.
 
-Current verified record: **16 merged public open-source contributions across
+Current verified record: **17 merged public open-source contributions across
 11 repositories**. The accepted contribution set spans developer tooling,
 container tooling, desktop infrastructure, web frameworks, application
 platforms, AI infrastructure, and agent systems.
@@ -36,7 +36,7 @@ Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repository
 ## Merged Contribution Summary
 
 This summary is derived from public Field Lab records and live merged pull
-request status checked on 2026-07-25.
+request status checked on 2026-07-28.
 
 | Repository | Merged contributions | Area | Merged PRs |
 | --- | ---: | --- | --- |
@@ -44,7 +44,7 @@ request status checked on 2026-07-25.
 | `docker/compose` | 1 | Container tooling | [#13831](https://github.com/docker/compose/pull/13831) |
 | `electron/electron` | 1 | Desktop platform | [#52238](https://github.com/electron/electron/pull/52238) |
 | `emersion/xdg-desktop-portal-wlr` | 1 | Linux desktop infrastructure | [#393](https://github.com/emersion/xdg-desktop-portal-wlr/pull/393) |
-| `microsoft/agent-framework` | 1 | Agent framework | [#7189](https://github.com/microsoft/agent-framework/pull/7189) |
+| `microsoft/agent-framework` | 2 | Agent framework | [#7189](https://github.com/microsoft/agent-framework/pull/7189), [#7322](https://github.com/microsoft/agent-framework/pull/7322) |
 | `NVIDIA/NemoClaw` | 2 | AI infrastructure | [#7254](https://github.com/NVIDIA/NemoClaw/pull/7254), [#7406](https://github.com/NVIDIA/NemoClaw/pull/7406) |
 | `open-multi-agent/open-multi-agent` | 2 | Multi-agent systems | [#377](https://github.com/open-multi-agent/open-multi-agent/pull/377), [#378](https://github.com/open-multi-agent/open-multi-agent/pull/378) |
 | `OpenAPITools/openapi-generator` | 1 | API developer tooling | [#24022](https://github.com/OpenAPITools/openapi-generator/pull/24022) |
@@ -53,10 +53,11 @@ request status checked on 2026-07-25.
 | `twentyhq/twenty` | 1 | Open-source application platform | [#23008](https://github.com/twentyhq/twenty/pull/23008) |
 
 Repeat contributions have been accepted in `pnpm/pnpm`, `NVIDIA/NemoClaw`,
-`open-multi-agent/open-multi-agent`, and `sveltejs/kit`. Those records show
-work continuing past a first accepted patch: learning local conventions,
-responding to review, adding repository-native tests, and keeping the final
-claim tied to the target project's own evidence.
+`open-multi-agent/open-multi-agent`, `sveltejs/kit`, and
+`microsoft/agent-framework`. Those records show work continuing past a first
+accepted patch: learning local conventions, responding to review, adding
+repository-native tests, and keeping the final claim tied to the target
+project's own evidence.
 
 NVIDIA's NemoClaw v0.0.96 release announcement publicly thanked
 `@scarab-systems` for the accepted NemoClaw contributions in
