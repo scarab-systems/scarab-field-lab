@@ -8,6 +8,7 @@ repairs, public comments, and upstream PR outcomes.
 
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
+| [NemoClaw #7920](field-tests/nvidia-nemoclaw-7920/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-closed | 2026-07-31 |
 | [Microsoft Agent Framework #7214](field-tests/microsoft-agent-framework-7214/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-30 |
 | [Microsoft Agent Framework #6954](field-tests/microsoft-agent-framework-6954/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-28 |
 | [Microsoft Agent Framework #7045](field-tests/microsoft-agent-framework-7045/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-closed | 2026-07-27 |
@@ -21,7 +22,6 @@ repairs, public comments, and upstream PR outcomes.
 | [Open Multi Agent #96](field-tests/open-multi-agent-open-multi-agent-96/README.md) | `open-multi-agent/open-multi-agent` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-16 |
 | [SvelteKit #9785](field-tests/sveltejs-kit-9785/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-14 |
 | [Directus #24029](field-tests/directus-directus-24029/README.md) | `directus/directus` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-13 |
-| [Saleor #17908](field-tests/saleor-saleor-17908/README.md) | `saleor/saleor` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-12 |
 | [pnpm #9191](field-tests/pnpm-pnpm-9191/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-07 |
 | [Electron #51988](field-tests/electron-electron-51988/README.md) | `electron/electron` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-03 |
 | [xdg-desktop-portal-wlr #379](field-tests/emersion-xdg-desktop-portal-wlr-379/README.md) | `emersion/xdg-desktop-portal-wlr` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-03 |
@@ -40,7 +40,6 @@ repairs, public comments, and upstream PR outcomes.
 | [Next.js #81161](field-tests/vercel-next-js-81161/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-12 |
 | [Visual Studio Code #247522](field-tests/microsoft-vscode-247522/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-11 |
 | [pnpm #12222](field-tests/pnpm-pnpm-12222/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-06-11 |
-| [Rust #157047](field-tests/rust-lang-rust-157047/README.md) | `rust-lang/rust` | diagnostic-proof-and-repair | repair-recorded | 2026-06-11 |
 | [Playwright #39948](field-tests/microsoft-playwright-39948/README.md) | `microsoft/playwright` | repair | public-comment-recorded | 2026-06-10 |
 | [pnpm #12240](field-tests/pnpm-pnpm-12240/README.md) | `pnpm/pnpm` | repair | upstream-accepted | 2026-06-10 |
 | [Next.js #92978](field-tests/vercel-next-js-92978/README.md) | `vercel/next.js` | repair | upstream-pr-recorded | 2026-06-09 |
