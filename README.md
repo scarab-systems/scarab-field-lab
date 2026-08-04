@@ -7,7 +7,7 @@
 Scarab Field Lab is the public case library for selected Scarab Diagnostic
 Suite field tests and public feature pull request records.
 
-Current verified record: **18 merged public open-source contributions across
+Current verified record: **19 merged public open-source contributions across
 11 repositories**. The accepted contribution set spans developer tooling,
 container tooling, desktop infrastructure, web frameworks, application
 platforms, AI infrastructure, and agent systems.
@@ -36,7 +36,7 @@ Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repository
 ## Merged Contribution Summary
 
 This summary is derived from public Field Lab records and live merged pull
-request status checked on 2026-07-30.
+request status checked on 2026-08-04.
 
 | Repository | Merged contributions | Area | Merged PRs |
 | --- | ---: | --- | --- |
@@ -44,7 +44,7 @@ request status checked on 2026-07-30.
 | `docker/compose` | 1 | Container tooling | [#13831](https://github.com/docker/compose/pull/13831) |
 | `electron/electron` | 1 | Desktop platform | [#52238](https://github.com/electron/electron/pull/52238) |
 | `emersion/xdg-desktop-portal-wlr` | 1 | Linux desktop infrastructure | [#393](https://github.com/emersion/xdg-desktop-portal-wlr/pull/393) |
-| `microsoft/agent-framework` | 3 | Agent framework | [#7189](https://github.com/microsoft/agent-framework/pull/7189), [#7322](https://github.com/microsoft/agent-framework/pull/7322), [#7375](https://github.com/microsoft/agent-framework/pull/7375) |
+| `microsoft/agent-framework` | 4 | Agent framework | [#7189](https://github.com/microsoft/agent-framework/pull/7189), [#7322](https://github.com/microsoft/agent-framework/pull/7322), [#7375](https://github.com/microsoft/agent-framework/pull/7375), [#7396](https://github.com/microsoft/agent-framework/pull/7396) |
 | `NVIDIA/NemoClaw` | 2 | AI infrastructure | [#7254](https://github.com/NVIDIA/NemoClaw/pull/7254), [#7406](https://github.com/NVIDIA/NemoClaw/pull/7406) |
 | `open-multi-agent/open-multi-agent` | 2 | Multi-agent systems | [#377](https://github.com/open-multi-agent/open-multi-agent/pull/377), [#378](https://github.com/open-multi-agent/open-multi-agent/pull/378) |
 | `OpenAPITools/openapi-generator` | 1 | API developer tooling | [#24022](https://github.com/OpenAPITools/openapi-generator/pull/24022) |
@@ -96,6 +96,7 @@ range of accepted work without replacing the underlying evidence.
 | [NemoClaw #6042](field-tests/nvidia-nemoclaw-6042/README.md) | [NVIDIA/NemoClaw#7254](https://github.com/NVIDIA/NemoClaw/pull/7254) | Empty policy-preset resume contract coverage. | Targeted Vitest and integration tests passed; maintainer approved and merged the test-only contribution. The v0.0.96 release announcement later credited the contribution. |
 | [SvelteKit #9785](field-tests/sveltejs-kit-9785/README.md) | [sveltejs/kit#16268](https://github.com/sveltejs/kit/pull/16268) | Streamed server-data rejection race handling. | Repository checks and focused Playwright regressions passed; maintainer review retargeted and approved the PR. |
 | [Docker Compose #13613](field-tests/docker-compose-13613/README.md) | [docker/compose#13831](https://github.com/docker/compose/pull/13831) | Variable extraction over unresolved Compose config values. | Focused and package Go tests, lint, and diff checks passed before merge. |
+| [Microsoft Agent Framework #7393](field-tests/microsoft-agent-framework-7393/README.md) | [microsoft/agent-framework#7396](https://github.com/microsoft/agent-framework/pull/7396) | Bounded Python tool-result compaction summaries. | Public checks passed across Python versions and platforms; human approvals completed before squash merge. |
 | [Microsoft Agent Framework #7160](field-tests/microsoft-agent-framework-7160/README.md) | [microsoft/agent-framework#7189](https://github.com/microsoft/agent-framework/pull/7189) | Python MCP sampling conversion for structured tool-use results. | Public checks and maintainer approvals completed before merge. |
 | [Open Multi Agent #378](feature-prs/open-multi-agent-378/README.md) | [open-multi-agent/open-multi-agent#378](https://github.com/open-multi-agent/open-multi-agent/pull/378) | Generic process backend for external agents. | Maintainer review identified blockers; follow-up revisions landed before merge. |
 
