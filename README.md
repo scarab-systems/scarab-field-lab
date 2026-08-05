@@ -7,6 +7,8 @@
 Scarab Field Lab is the public case library for selected Scarab Diagnostic
 Suite field tests and public feature pull request records.
 
+Related site: [Scarab Diagnostics public proof](https://scarabdiagnostics.com/public-proof).
+
 Current verified record: **19 merged public open-source contributions across
 11 repositories**. The accepted contribution set spans developer tooling,
 container tooling, desktop infrastructure, web frameworks, application
