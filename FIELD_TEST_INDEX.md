@@ -29,7 +29,7 @@ repairs, public comments, and upstream PR outcomes.
 | [xdg-desktop-portal #1947](field-tests/flatpak-xdg-desktop-portal-1947/README.md) | `flatpak/xdg-desktop-portal` | diagnostic-proof-and-repair | upstream-closed | 2026-07-03 |
 | [Docker Compose #13602](field-tests/docker-compose-13602/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-30 |
 | [Prometheus #11505](field-tests/prometheus-prometheus-11505/README.md) | `prometheus/prometheus` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-19 |
-| [Prometheus #12244](field-tests/prometheus-prometheus-12244/README.md) | `prometheus/prometheus` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-19 |
+| [Prometheus #12244](field-tests/prometheus-prometheus-12244/README.md) | `prometheus/prometheus` | diagnostic-proof-and-repair | upstream-closed | 2026-06-19 |
 | [Hummingbot #7294 and #7295](field-tests/hummingbot-hummingbot-7294/README.md) | `hummingbot/hummingbot` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [NautilusTrader #3549](field-tests/nautechsystems-nautilus-trader-3549/README.md) | `nautechsystems/nautilus_trader` | diagnostic-proof-and-repair | upstream-closed | 2026-06-17 |
 | [QuantConnect Lean #6360](field-tests/quantconnect-lean-6360/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
