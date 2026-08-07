@@ -9,7 +9,7 @@ Suite field tests and public feature pull request records.
 
 Related site: [Scarab Diagnostics public proof](https://scarabdiagnostics.com/public-proof).
 
-Current verified record: **19 merged public open-source contributions across
+Current verified record: **20 merged public open-source contributions across
 11 repositories**. The accepted contribution set spans developer tooling,
 container tooling, desktop infrastructure, web frameworks, application
 platforms, AI infrastructure, and agent systems.
@@ -38,7 +38,7 @@ Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repository
 ## Merged Contribution Summary
 
 This summary is derived from public Field Lab records and live merged pull
-request status checked on 2026-08-04.
+request status checked on 2026-08-07.
 
 | Repository | Merged contributions | Area | Merged PRs |
 | --- | ---: | --- | --- |
@@ -50,7 +50,7 @@ request status checked on 2026-08-04.
 | `NVIDIA/NemoClaw` | 2 | AI infrastructure | [#7254](https://github.com/NVIDIA/NemoClaw/pull/7254), [#7406](https://github.com/NVIDIA/NemoClaw/pull/7406) |
 | `open-multi-agent/open-multi-agent` | 2 | Multi-agent systems | [#377](https://github.com/open-multi-agent/open-multi-agent/pull/377), [#378](https://github.com/open-multi-agent/open-multi-agent/pull/378) |
 | `OpenAPITools/openapi-generator` | 1 | API developer tooling | [#24022](https://github.com/OpenAPITools/openapi-generator/pull/24022) |
-| `pnpm/pnpm` | 3 | Package management | [#12301](https://github.com/pnpm/pnpm/pull/12301), [#12327](https://github.com/pnpm/pnpm/pull/12327), [#12841](https://github.com/pnpm/pnpm/pull/12841) |
+| `pnpm/pnpm` | 4 | Package management | [#12301](https://github.com/pnpm/pnpm/pull/12301), [#12327](https://github.com/pnpm/pnpm/pull/12327), [#12841](https://github.com/pnpm/pnpm/pull/12841), [#13671](https://github.com/pnpm/pnpm/pull/13671) |
 | `sveltejs/kit` | 2 | Web framework | [#16268](https://github.com/sveltejs/kit/pull/16268), [#16423](https://github.com/sveltejs/kit/pull/16423) |
 | `twentyhq/twenty` | 1 | Open-source application platform | [#23008](https://github.com/twentyhq/twenty/pull/23008) |
 
@@ -94,6 +94,7 @@ range of accepted work without replacing the underlying evidence.
 
 | Record | Merged PR | Focus | Public validation or review signal |
 | --- | --- | --- | --- |
+| [pnpm #11801](field-tests/pnpm-pnpm-11801/README.md) | [pnpm/pnpm#13671](https://github.com/pnpm/pnpm/pull/13671) | Offline lockfile verification using cached registry metadata instead of remote access. | Rust and TypeScript resolver tests, compile, lint, pre-push Rust hook, public CI, CodeRabbit approval, and maintainer approval completed before merge. |
 | [pnpm #12240](field-tests/pnpm-pnpm-12240/README.md) | [pnpm/pnpm#12301](https://github.com/pnpm/pnpm/pull/12301) | `self-upgrade` dependency-status handling when no manifest is present. | Targeted Jest tests, TypeScript build, and package lint passed before merge. |
 | [NemoClaw #6042](field-tests/nvidia-nemoclaw-6042/README.md) | [NVIDIA/NemoClaw#7254](https://github.com/NVIDIA/NemoClaw/pull/7254) | Empty policy-preset resume contract coverage. | Targeted Vitest and integration tests passed; maintainer approved and merged the test-only contribution. The v0.0.96 release announcement later credited the contribution. |
 | [SvelteKit #9785](field-tests/sveltejs-kit-9785/README.md) | [sveltejs/kit#16268](https://github.com/sveltejs/kit/pull/16268) | Streamed server-data rejection race handling. | Repository checks and focused Playwright regressions passed; maintainer review retargeted and approved the PR. |
