@@ -8,6 +8,7 @@ repairs, public comments, and upstream PR outcomes.
 
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
+| [OpenAI Python #3472](field-tests/openai-openai-python-3472/README.md) | `openai/openai-python` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-13 |
 | [pnpm #11801](field-tests/pnpm-pnpm-11801/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-08-07 |
 | [Microsoft Agent Framework #7393](field-tests/microsoft-agent-framework-7393/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-08-04 |
 | [NemoClaw #7920](field-tests/nvidia-nemoclaw-7920/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-closed | 2026-07-31 |
