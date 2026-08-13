@@ -39,6 +39,8 @@ recorded_at: 2026-08-13
   `item_id`.
 - Fill `response.function_call_arguments.done.name` from the correlated
   `item_id` before strict `ResponseStreamEvent` validation.
+- Gate the Responses-specific normalizer import so unrelated stream chunk types
+  do not load Responses streaming helpers.
 - Cover both sync and async `client.responses.create(..., stream=True)` paths.
 - Preserve generated event model files.
 - Not claimed: This does not change the OpenAI API event schema.
@@ -49,18 +51,18 @@ recorded_at: 2026-08-13
 
 - Public contribution branch was based on OpenAI Python's public `main` branch.
 - Latest public pull request head recorded here:
-  `55d02cdca4571334b5bba1f00e53013ee35a8e7b`.
+  `aaa72174b302402ced6694dc8a57c221b0aaee9b`.
 - Fail-first coverage was checked before the repair against the strict missing
   `ResponseFunctionCallArgumentsDoneEvent.name` validation path.
 - Public pull request validation recorded:
-  `uv run pytest tests/lib/responses/test_responses.py tests/test_streaming.py tests/test_httpx2.py -o addopts=`; 47 passed.
+  `uv run pytest tests/lib/responses/test_responses.py tests/test_streaming.py tests/test_httpx2.py -o addopts=`; 48 passed.
 - Public pull request validation recorded:
   `uv run nox -s test-pydantic-v1 -- tests/lib/responses/test_responses.py -k streamed_function_call_arguments_done_uses_output_item_name -o addopts=`; 2 passed.
 - Public pull request validation recorded: `uv run ruff check .`.
 - Public pull request validation recorded:
-  `uv run ruff format --check src/openai/_streaming.py src/openai/lib/streaming/responses/_stream_event_normalizer.py tests/lib/responses/test_responses.py`.
+  `uv run ruff format --check src/openai/_streaming.py src/openai/lib/streaming/responses/_stream_event_normalizer.py tests/lib/responses/test_responses.py tests/test_streaming.py`.
 - Public pull request validation recorded:
-  `uv run pyright src/openai/_streaming.py src/openai/lib/streaming/responses/_stream_event_normalizer.py tests/lib/responses/test_responses.py`.
+  `uv run pyright src/openai/_streaming.py src/openai/lib/streaming/responses/_stream_event_normalizer.py tests/lib/responses/test_responses.py tests/test_streaming.py`.
 - Public pull request validation recorded:
   `uv run mypy src/openai/_streaming.py src/openai/lib/streaming/responses/_stream_event_normalizer.py`.
 - Public pull request validation recorded: `uv run python -c 'import openai'`.
@@ -73,6 +75,9 @@ recorded_at: 2026-08-13
 - The pull request is review-ready and maintainer edits are enabled.
 - GitHub reported the pull request mergeable at recording.
 - GitHub review status at recording: review required.
+- Automated review recommendations were checked on 2026-08-13; the
+  unrelated-stream import recommendation was addressed in the latest public
+  pull request head.
 
 ## Public links
 
@@ -84,6 +89,7 @@ recorded_at: 2026-08-13
 - src/openai/_streaming.py
 - src/openai/lib/streaming/responses/_stream_event_normalizer.py
 - tests/lib/responses/test_responses.py
+- tests/test_streaming.py
 
 ## Assistance disclosure
 
