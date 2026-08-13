@@ -9,22 +9,13 @@ repairs, public comments, and upstream PR outcomes.
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
 | [OpenAI Python #3472](field-tests/openai-openai-python-3472/README.md) | `openai/openai-python` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-13 |
-| [pnpm #13526](field-tests/pnpm-pnpm-13526/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-11 |
-| [CopilotKit #6301](field-tests/copilotkit-copilotkit-6301/README.md) | `CopilotKit/CopilotKit` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-08 |
-| [pnpm #13018](field-tests/pnpm-pnpm-13018/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-closed | 2026-08-08 |
 | [pnpm #11801](field-tests/pnpm-pnpm-11801/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-08-07 |
-| [Microsoft Agent Framework #7503](field-tests/microsoft-agent-framework-7503/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-closed | 2026-08-04 |
 | [Microsoft Agent Framework #7393](field-tests/microsoft-agent-framework-7393/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-08-04 |
-| [ASP.NET Core #57098](field-tests/dotnet-aspnetcore-57098/README.md) | `dotnet/aspnetcore` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-01 |
 | [NemoClaw #7920](field-tests/nvidia-nemoclaw-7920/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-closed | 2026-07-31 |
 | [Microsoft Agent Framework #7214](field-tests/microsoft-agent-framework-7214/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-30 |
-| [SvelteKit #14409](field-tests/sveltejs-kit-14409/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-closed | 2026-07-29 |
 | [Microsoft Agent Framework #6954](field-tests/microsoft-agent-framework-6954/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-28 |
-| [OpenAI Python #3271](field-tests/openai-openai-python-3271/README.md) | `openai/openai-python` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-28 |
 | [Microsoft Agent Framework #7045](field-tests/microsoft-agent-framework-7045/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-closed | 2026-07-27 |
-| [Docker Compose #13649](field-tests/docker-compose-13649/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-26 |
 | [NemoClaw #7387](field-tests/nvidia-nemoclaw-7387/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-25 |
-| [NemoClaw #7348](field-tests/nvidia-nemoclaw-7348/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-closed | 2026-07-25 |
 | [Twenty #22934](field-tests/twentyhq-twenty-22934/README.md) | `twentyhq/twenty` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-23 |
 | [Microsoft Agent Framework #7160](field-tests/microsoft-agent-framework-7160/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-21 |
 | [NemoClaw #7273](field-tests/nvidia-nemoclaw-7273/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-closed | 2026-07-21 |
@@ -62,7 +53,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Next.js #94450](field-tests/vercel-next-js-94450/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-06 |
 | [LangChain #34818](field-tests/langchain-ai-langchain-34818/README.md) | `langchain-ai/langchain` | repair | repair-recorded | 2026-06-04 |
 | [Visual Studio Code #314457](field-tests/microsoft-vscode-314457/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | public-comment-recorded | 2026-06-04 |
-| [Moby #46742](field-tests/moby-moby-46742/README.md) | `moby/moby` | diagnostic-proof | upstream-pr-recorded | 2026-06-04 |
+| [Moby #46742](field-tests/moby-moby-46742/README.md) | `moby/moby` | diagnostic-proof | upstream-closed | 2026-06-04 |
 | [Next.js #54482](field-tests/vercel-next-js-54482/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-04 |
 | [Kubernetes #138670](field-tests/kubernetes-kubernetes-138670/README.md) | `kubernetes/kubernetes` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-03 |
 | [Open WebUI #25038](field-tests/open-webui-open-webui-25038/README.md) | `open-webui/open-webui` | repair | upstream-closed | 2026-05-31 |
