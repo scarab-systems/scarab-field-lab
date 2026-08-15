@@ -145,5 +145,5 @@ Sponsor Scarab Systems:
 [github.com/sponsors/scarab-systems](https://github.com/sponsors/scarab-systems?metadata_campaign=field_lab)
 
 ## Mascot
-
+https://github.com/scarab-systems/scarab-field-lab/blob/main/assets/scarab-mascot.png
 This is Scarab... That is all.
