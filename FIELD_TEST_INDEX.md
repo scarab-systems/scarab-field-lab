@@ -9,7 +9,7 @@ repairs, public comments, and upstream PR outcomes.
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
 | [OpenAI Python #3472](field-tests/openai-openai-python-3472/README.md) | `openai/openai-python` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-13 |
-| [pnpm #13526](field-tests/pnpm-pnpm-13526/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-11 |
+| [pnpm #13526](field-tests/pnpm-pnpm-13526/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-08-11 |
 | [CopilotKit #6301](field-tests/copilotkit-copilotkit-6301/README.md) | `CopilotKit/CopilotKit` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-08 |
 | [pnpm #13018](field-tests/pnpm-pnpm-13018/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-closed | 2026-08-08 |
 | [pnpm #11801](field-tests/pnpm-pnpm-11801/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-08-07 |

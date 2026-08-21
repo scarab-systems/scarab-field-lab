@@ -4,7 +4,7 @@ slug: pnpm-pnpm-13526
 repository: pnpm/pnpm
 issue_url: https://github.com/pnpm/pnpm/issues/13526
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-accepted
 recorded_at: 2026-08-11
 ---
 # pnpm #13526
@@ -15,8 +15,9 @@ recorded_at: 2026-08-11
 - Issue: https://github.com/pnpm/pnpm/issues/13526
 - Pull request: https://github.com/pnpm/pnpm/pull/13812
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
-- Upstream status: open pull request recorded on 2026-08-11.
+- Status: upstream-accepted
+- Upstream status: pnpm/pnpm#13812 merged on 2026-08-20.
+- Issue status: pnpm/pnpm#13526 closed by the merged pull request.
 
 ## Diagnostic finding
 
@@ -49,7 +50,9 @@ recorded_at: 2026-08-11
 
 - Public contribution branch was based on pnpm's public `main` branch.
 - Latest public pull request head recorded here:
-  `bd38335a038dbe2467dcef64cf1026b2112fa82e`.
+  `45f884fab2bcb8d719a07279b4cbe43fa031a495`.
+- Public merge commit recorded here:
+  `2f5af10931c390b3b7041fa666886af7aad1337a`.
 - Public pull request validation recorded:
   `cargo fmt --all --check`.
 - Public pull request validation recorded:
@@ -67,16 +70,17 @@ recorded_at: 2026-08-11
 - Public pull request validation recorded:
   `cargo test -p pacquet-cli recursive_update --test suite`.
 - Public pull request validation recorded: `just ready`.
-- Automated review status visible at recording included CodeRabbit approval and
+- Public GitHub checks visible before merge included successful Rust CI, CodeQL,
+  dependency audit, coverage upload, and benchmark comparison jobs.
+- Automated review status visible before merge included CodeRabbit approval and
   Greptile approval.
+- Maintainer `zkochan` approved the pull request before merge.
 
 ## Public review status
 
-- pnpm/pnpm#13812 is open against `pnpm/pnpm:main`.
+- pnpm/pnpm#13812 merged into `pnpm/pnpm:main` on 2026-08-20.
 - The pull request was opened from the public `scarab-systems/pnpm` fork.
-- The pull request fixes pnpm/pnpm#13526.
-- Maintainer edits are enabled.
-- pnpm/pnpm#13526 remains open at recording.
+- The merged pull request closed pnpm/pnpm#13526.
 
 ## Public links
 
