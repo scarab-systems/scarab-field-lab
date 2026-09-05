@@ -146,5 +146,5 @@ Sponsor Scarab Systems:
 [github.com/sponsors/scarab-systems](https://github.com/sponsors/scarab-systems?metadata_campaign=field_lab)
 
 ## Mascot
-https://github.com/scarab-systems/scarab-field-lab/blob/main/assets/scarab-mascot.png
+  <img src="assets/scarab-mascot.png" alt="Scarab Systems mascot holding a circuit-board lollipop" width="220">
 This is Scarab... That is all.
