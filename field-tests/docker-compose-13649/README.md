@@ -4,7 +4,7 @@ slug: docker-compose-13649
 repository: docker/compose
 issue_url: https://github.com/docker/compose/issues/13649
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-07-26
 ---
 # Docker Compose #13649
@@ -15,8 +15,9 @@ recorded_at: 2026-07-26
 - Issue: https://github.com/docker/compose/issues/13649
 - Pull request: https://github.com/docker/compose/pull/13972
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
-- Upstream status: open pull request recorded on 2026-07-26.
+- Status: upstream-closed
+- Upstream status: docker/compose#13972 closed without merge on 2026-09-15.
+- Status verified against GitHub on 2026-10-05.
 
 ## Diagnostic finding
 
@@ -66,10 +67,9 @@ recorded_at: 2026-07-26
 
 ## Public review status
 
-- docker/compose#13972 is open against `docker/compose:main`.
+- docker/compose#13972 was closed without merge on 2026-09-15.
 - The pull request was opened from the public `scarab-systems/compose` fork.
-- The pull request fixes docker/compose#13649.
-- Maintainer edits are enabled.
+- The pull request proposed a fix for docker/compose#13649.
 - docker/compose#13649 remains open at recording.
 
 ## Public links

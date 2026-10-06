@@ -4,7 +4,7 @@ slug: openai-openai-python-3472
 repository: openai/openai-python
 issue_url: https://github.com/openai/openai-python/issues/3472
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-08-13
 ---
 # OpenAI Python #3472
@@ -15,8 +15,9 @@ recorded_at: 2026-08-13
 - Issue: https://github.com/openai/openai-python/issues/3472
 - Pull request: https://github.com/openai/openai-python/pull/3605
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
-- Upstream status: open pull request recorded on 2026-08-13.
+- Status: upstream-closed
+- Upstream status: openai/openai-python#3605 closed without merge on 2026-09-05.
+- Status verified against GitHub on 2026-10-05.
 
 ## Diagnostic finding
 
@@ -69,12 +70,9 @@ recorded_at: 2026-08-13
 
 ## Public review status
 
-- openai/openai-python#3605 is open against `openai/openai-python:main`.
+- openai/openai-python#3605 was closed without merge on 2026-09-05.
 - The pull request was opened from the public `scarab-systems/openai-python`
   fork.
-- The pull request is review-ready and maintainer edits are enabled.
-- GitHub reported the pull request mergeable at recording.
-- GitHub review status at recording: review required.
 - Automated review recommendations were checked on 2026-08-13; the
   unrelated-stream import recommendation was addressed in the latest public
   pull request head.

@@ -4,7 +4,7 @@ slug: vercel-next-js-94450
 repository: vercel/next.js
 issue_url: https://github.com/vercel/next.js/issues/94450
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-06
 ---
 # Next.js #94450
@@ -14,7 +14,9 @@ recorded_at: 2026-06-06
 - Repository: `vercel/next.js`
 - Issue: https://github.com/vercel/next.js/issues/94450
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Upstream status: vercel/next.js#94509 closed without merge on 2026-07-22.
+- Status verified against GitHub on 2026-10-05.
 
 ## Diagnostic finding
 

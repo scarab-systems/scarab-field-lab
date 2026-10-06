@@ -16,6 +16,7 @@ recorded_at: 2026-06-13
 - Pull request: https://github.com/OpenAPITools/openapi-generator/pull/24022
 - Mode: diagnostic-proof-and-repair
 - Status: upstream-accepted
+- Upstream status: OpenAPITools/openapi-generator#24022 merged on 2026-06-14.
 
 ## Diagnostic finding
 
@@ -42,7 +43,7 @@ recorded_at: 2026-06-13
 - Generator docs export result: passed.
 - Diff check: `git diff --check`
 - Diff check result: passed.
-- Public PR status at recording: open, mergeable, with review/check activity in progress.
+- Public pull request status verified on 2026-10-05: merged.
 
 ## Public review status
 

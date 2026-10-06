@@ -4,7 +4,7 @@ slug: microsoft-vscode-247522
 repository: microsoft/vscode
 issue_url: https://github.com/microsoft/vscode/issues/247522
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-11
 ---
 # Visual Studio Code #247522
@@ -15,7 +15,9 @@ recorded_at: 2026-06-11
 - Issue: https://github.com/microsoft/vscode/issues/247522
 - Pull request: https://github.com/microsoft/vscode/pull/320877
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Upstream status: microsoft/vscode#320877 closed without merge on 2026-07-21.
+- Status verified against GitHub on 2026-10-05.
 
 ## Diagnostic finding
 

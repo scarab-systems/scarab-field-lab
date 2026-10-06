@@ -4,7 +4,7 @@ slug: quantconnect-lean-6360
 repository: QuantConnect/Lean
 issue_url: https://github.com/QuantConnect/Lean/issues/6360
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-17
 ---
 # QuantConnect Lean #6360
@@ -15,7 +15,9 @@ recorded_at: 2026-06-17
 - Issue: https://github.com/QuantConnect/Lean/issues/6360
 - Pull request: https://github.com/QuantConnect/Lean/pull/9539
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Upstream status: QuantConnect/Lean#9539 closed without merge on 2026-07-08.
+- Status verified against GitHub on 2026-10-05.
 
 ## Diagnostic finding
 
@@ -40,7 +42,7 @@ recorded_at: 2026-06-17
   short option margin.
 - Not claimed: This does not redesign generic buying power behavior for all
   security types.
-- Not claimed: QuantConnect/Lean#9539 has not merged at recording.
+- Not claimed: This record does not claim upstream acceptance of QuantConnect/Lean#9539.
 
 ## Validation record
 
@@ -54,12 +56,12 @@ recorded_at: 2026-06-17
   completed with 35,966 passed, 26 skipped, and 2 failures.
 - The two local full-suite failures reproduced on unchanged upstream `master`
   in the same arm64 container environment.
-- Public pull request status at recording: open and ready for review.
+- Public pull request status: closed without merge on 2026-07-08.
 - Not claimed: This record does not claim all upstream CI checks have completed.
 
 ## Public review status
 
-- QuantConnect/Lean#9539 is open against `QuantConnect:master`.
+- QuantConnect/Lean#9539 was closed without merge on 2026-07-08.
 - The pull request was opened from the public `scarab-systems/Lean` fork.
 
 ## Public links

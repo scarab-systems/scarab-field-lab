@@ -2,13 +2,15 @@
 
 This index lists public field-test case records.
 
+Pull request statuses were last verified against GitHub on 2026-10-05.
+
 A listed case does not imply upstream acceptance, maintainer endorsement, or
 project affiliation. Status fields distinguish diagnostic records, local
 repairs, public comments, and upstream PR outcomes.
 
 | Case | Repository | Mode | Status | Recorded |
 | --- | --- | --- | --- | --- |
-| [OpenAI Python #3472](field-tests/openai-openai-python-3472/README.md) | `openai/openai-python` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-13 |
+| [OpenAI Python #3472](field-tests/openai-openai-python-3472/README.md) | `openai/openai-python` | diagnostic-proof-and-repair | upstream-closed | 2026-08-13 |
 | [pnpm #13526](field-tests/pnpm-pnpm-13526/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-08-11 |
 | [CopilotKit #6301](field-tests/copilotkit-copilotkit-6301/README.md) | `CopilotKit/CopilotKit` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-08-08 |
 | [pnpm #13018](field-tests/pnpm-pnpm-13018/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-closed | 2026-08-08 |
@@ -22,7 +24,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Microsoft Agent Framework #6954](field-tests/microsoft-agent-framework-6954/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-28 |
 | [OpenAI Python #3271](field-tests/openai-openai-python-3271/README.md) | `openai/openai-python` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-28 |
 | [Microsoft Agent Framework #7045](field-tests/microsoft-agent-framework-7045/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-closed | 2026-07-27 |
-| [Docker Compose #13649](field-tests/docker-compose-13649/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-26 |
+| [Docker Compose #13649](field-tests/docker-compose-13649/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-closed | 2026-07-26 |
 | [NemoClaw #7387](field-tests/nvidia-nemoclaw-7387/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-25 |
 | [NemoClaw #7348](field-tests/nvidia-nemoclaw-7348/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-closed | 2026-07-25 |
 | [Twenty #22934](field-tests/twentyhq-twenty-22934/README.md) | `twentyhq/twenty` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-23 |
@@ -38,28 +40,28 @@ repairs, public comments, and upstream PR outcomes.
 | [Electron #51988](field-tests/electron-electron-51988/README.md) | `electron/electron` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-03 |
 | [xdg-desktop-portal-wlr #379](field-tests/emersion-xdg-desktop-portal-wlr-379/README.md) | `emersion/xdg-desktop-portal-wlr` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-03 |
 | [xdg-desktop-portal #1947](field-tests/flatpak-xdg-desktop-portal-1947/README.md) | `flatpak/xdg-desktop-portal` | diagnostic-proof-and-repair | upstream-closed | 2026-07-03 |
-| [Docker Compose #13602](field-tests/docker-compose-13602/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-30 |
+| [Docker Compose #13602](field-tests/docker-compose-13602/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-closed | 2026-06-30 |
 | [Prometheus #11505](field-tests/prometheus-prometheus-11505/README.md) | `prometheus/prometheus` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-19 |
 | [Prometheus #12244](field-tests/prometheus-prometheus-12244/README.md) | `prometheus/prometheus` | diagnostic-proof-and-repair | upstream-closed | 2026-06-19 |
 | [Hummingbot #7294 and #7295](field-tests/hummingbot-hummingbot-7294/README.md) | `hummingbot/hummingbot` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [NautilusTrader #3549](field-tests/nautechsystems-nautilus-trader-3549/README.md) | `nautechsystems/nautilus_trader` | diagnostic-proof-and-repair | upstream-closed | 2026-06-17 |
-| [QuantConnect Lean #6360](field-tests/quantconnect-lean-6360/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
+| [QuantConnect Lean #6360](field-tests/quantconnect-lean-6360/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-closed | 2026-06-17 |
 | [QuantConnect Lean #9440](field-tests/quantconnect-lean-9440/README.md) | `QuantConnect/Lean` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-17 |
 | [OpenAPI Generator #23920](field-tests/openapitools-openapi-generator-23920/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-closed | 2026-06-16 |
 | [OpenAPI Generator #23550](field-tests/openapitools-openapi-generator-23550/README.md) | `OpenAPITools/openapi-generator` | diagnostic-proof-and-repair | upstream-accepted | 2026-06-13 |
 | [Docker Compose #13613](field-tests/docker-compose-13613/README.md) | `docker/compose` | repair | upstream-accepted | 2026-06-12 |
-| [React #33054](field-tests/react-react-33054/README.md) | `react/react` | repair | upstream-pr-recorded | 2026-06-12 |
-| [Next.js #81161](field-tests/vercel-next-js-81161/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-12 |
-| [Visual Studio Code #247522](field-tests/microsoft-vscode-247522/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-11 |
+| [React #33054](field-tests/react-react-33054/README.md) | `react/react` | repair | upstream-closed | 2026-06-12 |
+| [Next.js #81161](field-tests/vercel-next-js-81161/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | upstream-closed | 2026-06-12 |
+| [Visual Studio Code #247522](field-tests/microsoft-vscode-247522/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | upstream-closed | 2026-06-11 |
 | [pnpm #12222](field-tests/pnpm-pnpm-12222/README.md) | `pnpm/pnpm` | diagnostic-proof-and-repair | upstream-accepted | 2026-06-11 |
 | [Playwright #39948](field-tests/microsoft-playwright-39948/README.md) | `microsoft/playwright` | repair | public-comment-recorded | 2026-06-10 |
 | [pnpm #12240](field-tests/pnpm-pnpm-12240/README.md) | `pnpm/pnpm` | repair | upstream-accepted | 2026-06-10 |
-| [Next.js #92978](field-tests/vercel-next-js-92978/README.md) | `vercel/next.js` | repair | upstream-pr-recorded | 2026-06-09 |
+| [Next.js #92978](field-tests/vercel-next-js-92978/README.md) | `vercel/next.js` | repair | upstream-closed | 2026-06-09 |
 | [Node.js #22448](field-tests/nodejs-node-22448/README.md) | `nodejs/node` | diagnostic-proof | diagnostic-boundary-recorded | 2026-06-07 |
 | [Deno #30652](field-tests/denoland-deno-30652/README.md) | `denoland/deno` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-06 |
 | [Kubernetes #138728](field-tests/kubernetes-kubernetes-138728/README.md) | `kubernetes/kubernetes` | diagnostic-proof-and-repair | repair-recorded | 2026-06-06 |
 | [Next.js #86784](field-tests/vercel-next-js-86784/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | repair-recorded | 2026-06-06 |
-| [Next.js #94450](field-tests/vercel-next-js-94450/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-06-06 |
+| [Next.js #94450](field-tests/vercel-next-js-94450/README.md) | `vercel/next.js` | diagnostic-proof-and-repair | upstream-closed | 2026-06-06 |
 | [LangChain #34818](field-tests/langchain-ai-langchain-34818/README.md) | `langchain-ai/langchain` | repair | repair-recorded | 2026-06-04 |
 | [Visual Studio Code #314457](field-tests/microsoft-vscode-314457/README.md) | `microsoft/vscode` | diagnostic-proof-and-repair | public-comment-recorded | 2026-06-04 |
 | [Moby #46742](field-tests/moby-moby-46742/README.md) | `moby/moby` | diagnostic-proof | upstream-pr-recorded | 2026-06-04 |

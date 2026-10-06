@@ -4,7 +4,7 @@ slug: vercel-next-js-81161
 repository: vercel/next.js
 issue_url: https://github.com/vercel/next.js/issues/81161
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-12
 ---
 # Next.js #81161
@@ -14,7 +14,9 @@ recorded_at: 2026-06-12
 - Repository: `vercel/next.js`
 - Issue: https://github.com/vercel/next.js/issues/81161
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Upstream status: vercel/next.js#94735 closed without merge on 2026-07-21.
+- Status verified against GitHub on 2026-10-05.
 
 ## Diagnostic finding
 

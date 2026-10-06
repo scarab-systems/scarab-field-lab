@@ -4,7 +4,7 @@ slug: docker-compose-13602
 repository: docker/compose
 issue_url: https://github.com/docker/compose/issues/13602
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-30
 ---
 # Docker Compose #13602
@@ -15,7 +15,9 @@ recorded_at: 2026-06-30
 - Issue: https://github.com/docker/compose/issues/13602
 - Pull request: https://github.com/docker/compose/pull/13889
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Upstream status: docker/compose#13889 closed without merge on 2026-07-20.
+- Status verified against GitHub on 2026-10-05.
 
 ## Diagnostic finding
 
@@ -36,7 +38,7 @@ recorded_at: 2026-06-30
   path does not exist.
 - Keep default bind behavior and ordinary host-path creation behavior outside
   this explicit `create_host_path: false` path.
-- Not claimed: docker/compose#13889 has not merged at recording.
+- Not claimed: This record does not claim upstream acceptance of docker/compose#13889.
 - Not claimed: This record does not claim a Docker Engine or Docker Desktop
   runtime change.
 
@@ -58,10 +60,9 @@ recorded_at: 2026-06-30
 
 ## Public review status
 
-- docker/compose#13889 is open against `docker/compose:main`.
+- docker/compose#13889 was closed without merge on 2026-07-20.
 - The pull request was opened from the public `scarab-systems/compose` fork.
 - The pull request is related to docker/compose#13602.
-- Public status at recording: open, ready for review, and not merged.
 
 ## Public links
 

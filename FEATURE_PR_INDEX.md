@@ -2,6 +2,8 @@
 
 This index lists public feature pull requests opened by Scarab Systems.
 
+Pull request statuses were last verified against GitHub on 2026-10-05.
+
 A listed feature pull request does not imply upstream acceptance, maintainer
 endorsement, or project affiliation. Status fields distinguish public PRs that
 are recorded, closed, or accepted.

@@ -4,7 +4,7 @@ slug: react-react-33054
 repository: react/react
 issue_url: https://github.com/react/react/issues/33054
 mode: repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-12
 ---
 # React #33054
@@ -16,7 +16,10 @@ recorded_at: 2026-06-12
 - Pull request: https://github.com/react/react/pull/36709
 - Follow-up pull request: https://github.com/react/react/pull/36735
 - Mode: repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Contributor PR status: react/react#36709 closed without merge on 2026-07-20.
+- Follow-up PR status: react/react#36735 remains open.
+- Statuses verified against GitHub on 2026-10-05.
 
 ## Diagnostic finding
 
@@ -31,8 +34,8 @@ recorded_at: 2026-06-12
 - Treat non-null expressions as assign-through values for mutation, aliasing, type, scope, pruning, and operand traversal passes.
 - Add regression fixtures for callback/event-handler non-null assertion behavior.
 - A follow-up React pull request builds on this repair and extends it through additional TypeScript sites plus the Rust compiler mirror.
-- Not claimed: react/react#36709 has not merged at recording.
-- Not claimed: react/react#36735 has not merged at recording.
+- Not claimed: This record does not claim upstream acceptance of react/react#36709.
+- Not claimed: This record does not claim that react/react#36735 has merged.
 - Not claimed: This record does not claim a broad React Compiler dependency redesign beyond the non-null assertion repair path.
 
 ## Validation record
@@ -49,7 +52,9 @@ recorded_at: 2026-06-12
 
 ## Public review status
 
-- react/react#36709 is open, mergeable, and waiting for review at recording.
+- react/react#36709 was closed without merge on 2026-07-20.
+- The separate maintainer pull request react/react#36735 remains open as of
+  2026-10-05 and is not counted as a merged contribution.
 - react/react#36735 publicly states that it builds on react/react#36709 by Scarab Systems, extends missing TypeScript sites, and adds the Rust compiler mirror.
 - react/react#36735 includes public co-author credit for Scarab Systems in its implementation commit.
 

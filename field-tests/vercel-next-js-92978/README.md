@@ -4,7 +4,7 @@ slug: vercel-next-js-92978
 repository: vercel/next.js
 issue_url: https://github.com/vercel/next.js/issues/92978
 mode: repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-06-09
 ---
 # Next.js #92978
@@ -14,7 +14,9 @@ recorded_at: 2026-06-09
 - Repository: `vercel/next.js`
 - Issue: https://github.com/vercel/next.js/issues/92978
 - Mode: repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Upstream status: vercel/next.js#94597 closed without merge on 2026-07-20.
+- Status verified against GitHub on 2026-10-05.
 
 ## Diagnostic finding
 
