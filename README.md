@@ -37,8 +37,13 @@ Scarab Diagnostic Suite is a mechanical diagnostic layer. It inspects repository
 
 ## Merged Contribution Summary
 
-This summary is derived from public Field Lab records and live merged pull
-request status checked on 2026-10-05.
+Public pull request status was verified on **2026-10-27**: **21 merged
+contributions across 11 repositories**, with **10 public pull requests still
+open**. Accepted contribution totals count merged pull requests only.
+
+The latest merge is [pnpm/pnpm#13812](https://github.com/pnpm/pnpm/pull/13812),
+merged on 2026-08-20. Every merged contribution is linked in the table below
+and has a public Field Lab record.
 
 | Repository | Merged contributions | Area | Merged PRs |
 | --- | ---: | --- | --- |

@@ -2,7 +2,7 @@
 
 This index lists public field-test case records.
 
-Pull request statuses were last verified against GitHub on 2026-10-05.
+Pull request statuses were last verified against GitHub on 2026-10-27.
 
 A listed case does not imply upstream acceptance, maintainer endorsement, or
 project affiliation. Status fields distinguish diagnostic records, local
@@ -31,7 +31,7 @@ repairs, public comments, and upstream PR outcomes.
 | [Microsoft Agent Framework #7160](field-tests/microsoft-agent-framework-7160/README.md) | `microsoft/agent-framework` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-21 |
 | [NemoClaw #7273](field-tests/nvidia-nemoclaw-7273/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof-and-repair | upstream-closed | 2026-07-21 |
 | [NemoClaw #6042](field-tests/nvidia-nemoclaw-6042/README.md) | `NVIDIA/NemoClaw` | diagnostic-proof | upstream-accepted | 2026-07-21 |
-| [Docker Compose #12948](field-tests/docker-compose-12948/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-pr-recorded | 2026-07-19 |
+| [Docker Compose #12948](field-tests/docker-compose-12948/README.md) | `docker/compose` | diagnostic-proof-and-repair | upstream-closed | 2026-07-19 |
 | [SvelteKit #15511](field-tests/sveltejs-kit-15511/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-19 |
 | [Open Multi Agent #96](field-tests/open-multi-agent-open-multi-agent-96/README.md) | `open-multi-agent/open-multi-agent` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-16 |
 | [SvelteKit #9785](field-tests/sveltejs-kit-9785/README.md) | `sveltejs/kit` | diagnostic-proof-and-repair | upstream-accepted | 2026-07-14 |

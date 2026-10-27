@@ -4,7 +4,7 @@ slug: docker-compose-12948
 repository: docker/compose
 issue_url: https://github.com/docker/compose/issues/12948
 mode: diagnostic-proof-and-repair
-status: upstream-pr-recorded
+status: upstream-closed
 recorded_at: 2026-07-19
 ---
 # Docker Compose #12948
@@ -15,7 +15,9 @@ recorded_at: 2026-07-19
 - Issue: https://github.com/docker/compose/issues/12948
 - Pull request: https://github.com/docker/compose/pull/13952
 - Mode: diagnostic-proof-and-repair
-- Status: upstream-pr-recorded
+- Status: upstream-closed
+- Upstream status: docker/compose#13952 closed without merge; checked on
+  2026-10-27.
 
 ## Diagnostic finding
 
@@ -41,7 +43,8 @@ recorded_at: 2026-07-19
   rendering.
 - Preserve existing `--format json` array output for compatibility while
   making template JSON available through `{{json .}}`.
-- Not claimed: docker/compose#13952 has not merged at recording.
+- Not claimed: docker/compose#13952 was closed without merge; this record does
+  not claim upstream acceptance.
 - Not claimed: This record does not claim a change to top-level Docker CLI
   commands.
 - Not claimed: This record does not claim a maintainer decision on changing the
@@ -61,10 +64,10 @@ recorded_at: 2026-07-19
 
 ## Public review status
 
-- docker/compose#13952 is open against `docker/compose:main`.
+- docker/compose#13952 was closed without merge.
 - The pull request was opened from the public `scarab-systems/compose` fork.
 - The pull request is related to docker/compose#12948.
-- Public status at recording: open, ready for review, and not merged.
+- Public status checked on 2026-10-27: closed and not merged.
 - GitHub review status at recording: review required.
 - GitHub merge-state field at recording: blocked.
 - Maintainer edits were enabled at recording.
