@@ -14,6 +14,10 @@ Current verified record: **21 merged public open-source contributions across
 container tooling, desktop infrastructure, web frameworks, application
 platforms, AI infrastructure, and agent systems.
 
+<p align="center">
+  <a href="https://github.com/sponsors/scarab-systems?metadata_campaign=field_lab"><img src="assets/sponsor-button.svg" alt="Support the open-source work" width="280" height="36"></a>
+</p>
+
 Scarab Diagnostic Suite is proprietary and is not currently distributed as a public installable tool. Public materials describe selected diagnostic field tests and software-drift concepts only.
 
 Scarab does not automate repairs or replace maintainers. It identifies evidence-backed diagnostic findings: boundary failures, repo-truth drift, verification gaps, and repair lanes.
